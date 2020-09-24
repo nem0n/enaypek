@@ -1,0 +1,26 @@
+commit bd4ba9d7acf139a9d00a59f0f2562d86559462cd
+Merge: cf79d19 fa6213c
+Author: Erencan Aypek <erencanaypek@gmail.com>
+Date:   Sat Sep 19 20:06:24 2020 +0300
+
+    Merge pull request #1 from nem0n/readme-edits
+    
+    Update README.md
+
+commit fa6213cec5a31efd833e86b69e997c45d71c894b
+Author: Erencan Aypek <erencanaypek@gmail.com>
+Date:   Sat Sep 19 19:53:00 2020 +0300
+
+    Update README.md
+
+commit cf79d19d45d8af1b02fee57556332b1219ce5125
+Author: Erencan Aypek <erencanaypek@gmail.com>
+Date:   Sat Sep 19 19:50:51 2020 +0300
+
+    Update README.md
+
+commit 6adf78767ecc7f25f1f826090db9eb0a9045dade
+Author: Erencan Aypek <erencanaypek@gmail.com>
+Date:   Sat Sep 19 19:49:11 2020 +0300
+
+    Initial commit

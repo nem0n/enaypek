@@ -1,0 +1,63 @@
+.
+├── .git
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               └── HEAD
+│   ├── objects
+│   │   ├── 3b
+│   │   │   └── d55b0eb54066a523491b24839e982efc360839
+│   │   ├── 51
+│   │   │   └── 51da8982a04fc68a54aa8042b4490d2d7aa4eb
+│   │   ├── 62
+│   │   │   └── 6cb457d757428a641c33032768b2d1f54d4a22
+│   │   ├── 6a
+│   │   │   └── df78767ecc7f25f1f826090db9eb0a9045dade
+│   │   ├── 6f
+│   │   │   └── 71a29e5bc95f2798aca2706f4a6b836715ac6e
+│   │   ├── 83
+│   │   │   └── b9b9ddda95b70a6235472b3fa90918f8b7e356
+│   │   ├── bd
+│   │   │   └── 4ba9d7acf139a9d00a59f0f2562d86559462cd
+│   │   ├── cf
+│   │   │   └── 79d19d45d8af1b02fee57556332b1219ce5125
+│   │   ├── f1
+│   │   │   └── 9874d31a9f66625a876042e532e7651c80cb7e
+│   │   ├── fa
+│   │   │   └── 6213cec5a31efd833e86b69e997c45d71c894b
+│   │   ├── info
+│   │   └── pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       └── HEAD
+│       └── tags
+└── README.md
+
+27 directories, 33 files

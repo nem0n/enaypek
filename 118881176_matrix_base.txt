@@ -1,0 +1,1368 @@
+[1;31m Hostname: [0mmtrx-node02pd.dcm.senecacollege.ca
+[1;31m Disk Informations: [0m
+Filesystem               Size  Used Avail Use% Mounted on
+devtmpfs                 1.9G     0  1.9G   0% /dev
+tmpfs                    1.9G  4.0K  1.9G   1% /dev/shm
+tmpfs                    1.9G   11M  1.9G   1% /run
+tmpfs                    1.9G     0  1.9G   0% /sys/fs/cgroup
+/dev/mapper/centos-root   50G  8.6G   42G  18% /
+/dev/sda2               1014M  320M  695M  32% /boot
+/dev/sda1                200M   16M  184M   8% /boot/efi
+/dev/mapper/centos-tmp   5.0G  147M  4.9G   3% /tmp
+mtrx-home01pd:/home      2.0T  237G  1.8T  12% /home
+tmpfs                    376M     0  376M   0% /run/user/58653
+tmpfs                    376M     0  376M   0% /run/user/59325
+tmpfs                    376M     0  376M   0% /run/user/58427
+tmpfs                    376M     0  376M   0% /run/user/58744
+tmpfs                    376M     0  376M   0% /run/user/58794
+tmpfs                    376M     0  376M   0% /run/user/58688
+tmpfs                    376M     0  376M   0% /run/user/58379
+tmpfs                    376M     0  376M   0% /run/user/58854
+tmpfs                    376M     0  376M   0% /run/user/54543
+tmpfs                    376M     0  376M   0% /run/user/57919
+tmpfs                    376M     0  376M   0% /run/user/58127
+tmpfs                    376M     0  376M   0% /run/user/58496
+tmpfs                    376M     0  376M   0% /run/user/58715
+tmpfs                    376M     0  376M   0% /run/user/49177
+tmpfs                    376M     0  376M   0% /run/user/57859
+tmpfs                    376M     0  376M   0% /run/user/49745
+tmpfs                    376M     0  376M   0% /run/user/59058
+tmpfs                    376M     0  376M   0% /run/user/58511
+tmpfs                    376M     0  376M   0% /run/user/55306
+tmpfs                    376M     0  376M   0% /run/user/58532
+tmpfs                    376M     0  376M   0% /run/user/58503
+tmpfs                    376M     0  376M   0% /run/user/59102
+tmpfs                    376M     0  376M   0% /run/user/58888
+tmpfs                    376M     0  376M   0% /run/user/53088
+[1;31m Network Devices: [0meth0
+lo
+
+[1;31m Ip Address: [0m10.102.108.5
+10.102.108.12
+[1;31m Broadcast: [0m10.102.108.63
+[1;31m Netmask: [0m32
+26
+
+[1;31m OS Kernel Version: [0mLinux 3.10.0-1127.18.2.el7.x86_64 x86_64
+[1;31m OS Version: [0mVERSION="7 (Core)"
+[1;31m Selinux is DISABLED: [0m
+[1;31m Firewall Configs: [0m
+
+[1;31m Active Repositories: [0m
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * epel: d2lzkl7pfhq30w.cloudfront.net
+ * remi-php72: mirror.pit.teraswitch.com
+ * remi-safe: mirror.pit.teraswitch.com
+repo id                            repo name                              status
+!WANdisco-git/7/x86_64             WANdisco Distribution of git              350
+!base/7/x86_64                     CentOS-7 - Base                        10,070
+!epel/x86_64                       Extra Packages for Enterprise Linux 7  13,426
+!extras/7/x86_64                   CentOS-7 - Extras                         413
+!ius/x86_64                        IUS for Enterprise Linux 7 - x86_64       487
+!mysql-connectors-community/x86_64 MySQL Connectors Community                165
+!mysql-tools-community/x86_64      MySQL Tools Community                     115
+!mysql57-community/x86_64          MySQL 5.7 Community Server                444
+!remi-php72                        Remi's PHP 7.2 RPM repository for Ente    412
+!remi-safe                         Safe Remi's RPM repository for Enterpr  3,842
+!updates/7/x86_64                  CentOS-7 - Updates                      1,112
+repolist: 30,836
+[1;31m Number of Installed Packages: [0m
+1143
+
+[1;31m Name of Installed Packages: [0m
+Loaded plugins: fastestmirror
+Installed Packages
+ElectricFence.x86_64                    2.2.2-39.el7               @base        
+GConf2.x86_64                           3.2.6-8.el7                @base        
+GeoIP.x86_64                            1.5.0-14.el7               @base        
+ImageMagick.x86_64                      6.9.10.68-3.el7            @base        
+ImageMagick-c++.x86_64                  6.9.10.68-3.el7            @base        
+ModemManager-glib.x86_64                1.6.10-3.el7_6             @base        
+NetworkManager.x86_64                   1:1.18.4-3.el7             @base        
+NetworkManager-libnm.x86_64             1:1.18.4-3.el7             @base        
+NetworkManager-team.x86_64              1:1.18.4-3.el7             @base        
+NetworkManager-tui.x86_64               1:1.18.4-3.el7             @base        
+NetworkManager-wifi.x86_64              1:1.18.4-3.el7             @base        
+OpenEXR-libs.x86_64                     1.7.1-7.el7                @base        
+PyOpenGL.noarch                         3.0.1-6.el7                @base        
+SDL.x86_64                              1.2.15-16.el7              @base        
+acl.x86_64                              2.2.51-15.el7              @base        
+adobe-mappings-cmap.noarch              20171205-3.el7             @base        
+adobe-mappings-cmap-deprecated.noarch   20171205-3.el7             @base        
+adobe-mappings-pdf.noarch               20180407-1.el7             @base        
+adwaita-cursor-theme.noarch             3.28.0-1.el7               @base        
+adwaita-icon-theme.noarch               3.28.0-1.el7               @base        
+aic94xx-firmware.noarch                 30-6.el7                   @anaconda    
+alpine.x86_64                           2.23-2.el7                 @epel        
+alsa-firmware.noarch                    1.0.28-2.el7               @anaconda    
+alsa-lib.x86_64                         1.1.8-1.el7                @base        
+alsa-tools-firmware.x86_64              1.1.0-1.el7                @anaconda    
+ant.noarch                              1.9.4-2.el7                @base        
+apr.x86_64                              1.4.8-5.el7                @base        
+apr-util.x86_64                         1.5.2-6.el7                @base        
+arptables.x86_64                        0.0.4-8.el7                @base        
+aspell.x86_64                           12:0.60.6.1-9.el7          @base        
+aspell-en.x86_64                        50:7.1-5.el7               @epel        
+at-spi2-atk.x86_64                      2.26.2-1.el7               @base        
+at-spi2-core.x86_64                     2.28.0-1.el7               @base        
+atk.x86_64                              2.28.1-2.el7               @base        
+atkmm.x86_64                            2.24.2-1.el7               @base        
+atlas.x86_64                            3.10.1-12.el7              @base        
+audacity.x86_64                         2.3.3-2.el7                @epel        
+audit.x86_64                            2.8.5-4.el7                @base        
+audit-libs.x86_64                       2.8.5-4.el7                @base        
+authconfig.x86_64                       6.2.8-30.el7               @anaconda    
+autoconf.noarch                         2.69-11.el7                @base        
+autogen-libopts.x86_64                  5.18-5.el7                 @base        
+automake.noarch                         1.13.4-3.el7               @base        
+avahi-glib.x86_64                       0.6.31-20.el7              @base        
+avahi-libs.x86_64                       0.6.31-20.el7              @base        
+basesystem.noarch                       10.0-7.el7.centos          @anaconda    
+bash.x86_64                             4.2.46-34.el7              @base        
+bc.x86_64                               1.06.95-13.el7             @base        
+bind-export-libs.x86_64                 32:9.11.4-16.P2.el7_8.6    @updates     
+bind-libs.x86_64                        32:9.11.4-16.P2.el7_8.6    @updates     
+bind-libs-lite.x86_64                   32:9.11.4-16.P2.el7_8.6    @updates     
+bind-license.noarch                     32:9.11.4-16.P2.el7_8.6    @updates     
+bind-utils.x86_64                       32:9.11.4-16.P2.el7_8.6    @updates     
+binutils.x86_64                         2.27-43.base.el7_8.1       @updates     
+biosdevname.x86_64                      0.7.3-2.el7                @base        
+bison.x86_64                            3.0.4-2.el7                @base        
+blas.x86_64                             3.4.2-8.el7                @base        
+boost.x86_64                            1.53.0-28.el7              @base        
+boost-atomic.x86_64                     1.53.0-28.el7              @base        
+boost-chrono.x86_64                     1.53.0-28.el7              @base        
+boost-context.x86_64                    1.53.0-28.el7              @base        
+boost-date-time.x86_64                  1.53.0-28.el7              @base        
+boost-devel.x86_64                      1.53.0-28.el7              @base        
+boost-filesystem.x86_64                 1.53.0-28.el7              @base        
+boost-graph.x86_64                      1.53.0-28.el7              @base        
+boost-iostreams.x86_64                  1.53.0-28.el7              @base        
+boost-locale.x86_64                     1.53.0-28.el7              @base        
+boost-math.x86_64                       1.53.0-28.el7              @base        
+boost-program-options.x86_64            1.53.0-28.el7              @base        
+boost-python.x86_64                     1.53.0-28.el7              @base        
+boost-random.x86_64                     1.53.0-28.el7              @base        
+boost-regex.x86_64                      1.53.0-28.el7              @base        
+boost-serialization.x86_64              1.53.0-28.el7              @base        
+boost-signals.x86_64                    1.53.0-28.el7              @base        
+boost-system.x86_64                     1.53.0-28.el7              @base        
+boost-test.x86_64                       1.53.0-28.el7              @base        
+boost-thread.x86_64                     1.53.0-28.el7              @base        
+boost-timer.x86_64                      1.53.0-28.el7              @base        
+boost-wave.x86_64                       1.53.0-28.el7              @base        
+btrfs-progs.x86_64                      4.9.1-1.el7                @anaconda    
+byacc.x86_64                            1.9.20130304-3.el7         @base        
+bzip2.x86_64                            1.0.6-13.el7               @base        
+bzip2-devel.x86_64                      1.0.6-13.el7               @base        
+bzip2-libs.x86_64                       1.0.6-13.el7               @anaconda    
+c-ares.x86_64                           1.10.0-3.el7               @base        
+ca-certificates.noarch                  2020.2.41-70.0.el7_8       @updates     
+cairo.x86_64                            1.15.12-4.el7              @base        
+cairo-gobject.x86_64                    1.15.12-4.el7              @base        
+cairomm.x86_64                          1.12.0-1.el7               @base        
+cdparanoia-libs.x86_64                  10.2-17.el7                @base        
+centos-indexhtml.noarch                 7-9.el7.centos             @base        
+centos-logos.noarch                     70.0.6-3.el7.centos        @anaconda    
+centos-release.x86_64                   7-8.2003.0.el7.centos      @base        
+chkconfig.x86_64                        1.7.4-1.el7                @anaconda    
+chrony.x86_64                           3.4-1.el7                  @base        
+cl-asdf.noarch                          20101028-8.el7             @epel        
+cmake.x86_64                            2.8.12.2-2.el7             @base        
+colord-libs.x86_64                      1.3.4-2.el7                @base        
+common-lisp-controller.noarch           7.4-8.el7                  @epel        
+copy-jdk-configs.noarch                 3.3-10.el7_5               @base        
+coreutils.x86_64                        8.22-24.el7                @base        
+cpio.x86_64                             2.11-27.el7                @base        
+cpp.x86_64                              4.8.5-39.el7               @base        
+cppunit.x86_64                          1.12.1-11.el7              @base        
+cracklib.x86_64                         2.9.0-11.el7               @anaconda    
+cracklib-dicts.x86_64                   2.9.0-11.el7               @anaconda    
+cronie.x86_64                           1.4.11-23.el7              @base        
+cronie-anacron.x86_64                   1.4.11-23.el7              @base        
+crontabs.noarch                         1.11-6.20121102git.el7     @anaconda    
+cryptsetup.x86_64                       2.0.3-6.el7                @base        
+cryptsetup-libs.x86_64                  2.0.3-6.el7                @base        
+cscope.x86_64                           15.8-10.el7                @base        
+ctags.x86_64                            5.8-13.el7                 @base        
+cups-libs.x86_64                        1:1.6.3-43.el7             @base        
+curl.x86_64                             7.29.0-57.el7_8.1          @updates     
+cvs.x86_64                              1.11.23-35.el7             @base        
+cyrus-sasl-lib.x86_64                   2.1.26-23.el7              @base        
+dbus.x86_64                             1:1.10.24-14.el7_8         @updates     
+dbus-glib.x86_64                        0.100-7.el7                @anaconda    
+dbus-libs.x86_64                        1:1.10.24-14.el7_8         @updates     
+dbus-python.x86_64                      1.1.1-9.el7                @anaconda    
+dconf.x86_64                            0.28.0-4.el7               @base        
+dejavu-fonts-common.noarch              2.33-6.el7                 @base        
+dejavu-sans-fonts.noarch                2.33-6.el7                 @base        
+dejavu-sans-mono-fonts.noarch           2.33-6.el7                 @base        
+desktop-file-utils.x86_64               0.23-2.el7                 @base        
+device-mapper.x86_64                    7:1.02.164-7.el7_8.2       @updates     
+device-mapper-event.x86_64              7:1.02.164-7.el7_8.2       @updates     
+device-mapper-event-libs.x86_64         7:1.02.164-7.el7_8.2       @updates     
+device-mapper-libs.x86_64               7:1.02.164-7.el7_8.2       @updates     
+device-mapper-multipath.x86_64          0.4.9-131.el7              @base        
+device-mapper-multipath-libs.x86_64     0.4.9-131.el7              @base        
+device-mapper-persistent-data.x86_64    0.8.5-2.el7                @base        
+dhclient.x86_64                         12:4.2.5-79.el7.centos     @base        
+dhcp-common.x86_64                      12:4.2.5-79.el7.centos     @base        
+dhcp-libs.x86_64                        12:4.2.5-79.el7.centos     @base        
+dia.x86_64                              1:0.97.3-6.el7             @epel        
+dictd.x86_64                            1.12.1-20.el7              @epel        
+diffstat.x86_64                         1.57-4.el7                 @base        
+diffutils.x86_64                        3.3-5.el7                  @base        
+dmidecode.x86_64                        1:3.2-3.el7                @base        
+dos2unix.x86_64                         6.0.3-7.el7                @base        
+dosfstools.x86_64                       3.0.20-10.el7              @base        
+doxygen.x86_64                          1:1.8.5-4.el7              @base        
+dracut.x86_64                           033-568.el7                @base        
+dracut-config-rescue.x86_64             033-568.el7                @base        
+dracut-network.x86_64                   033-568.el7                @base        
+ds_agent.x86_64                         20.0.0-877.el7             installed    
+dwz.x86_64                              0.11-3.el7                 @base        
+dyninst.x86_64                          9.3.1-3.el7                @base        
+e2fsprogs.x86_64                        1.42.9-17.el7              @base        
+e2fsprogs-libs.x86_64                   1.42.9-17.el7              @base        
+ebtables.x86_64                         2.0.10-16.el7              @base        
+efibootmgr.x86_64                       17-2.el7                   @base        
+efivar-libs.x86_64                      36-12.el7                  @base        
+elfutils.x86_64                         0.176-4.el7                @base        
+elfutils-default-yama-scope.noarch      0.176-4.el7                @base        
+elfutils-libelf.x86_64                  0.176-4.el7                @base        
+elfutils-libs.x86_64                    0.176-4.el7                @base        
+emacs.x86_64                            1:24.3-23.el7              @base        
+emacs-common.x86_64                     1:24.3-23.el7              @base        
+emacs-filesystem.noarch                 1:24.3-23.el7              @base        
+enchant.x86_64                          1:1.6.0-8.el7              @base        
+epel-release.noarch                     7-12                       @epel        
+ethtool.x86_64                          2:4.8-10.el7               @base        
+expat.x86_64                            2.1.0-11.el7               @base        
+expat-devel.x86_64                      2.1.0-11.el7               @base        
+fabric.noarch                           1.14.0-1.el7               @epel        
+fail2ban.noarch                         0.11.1-9.el7.2             @epel        
+fail2ban-firewalld.noarch               0.11.1-9.el7.2             @epel        
+fail2ban-sendmail.noarch                0.11.1-9.el7.2             @epel        
+fail2ban-server.noarch                  0.11.1-9.el7.2             @epel        
+figlet.x86_64                           2.2.5-9.el7                @epel        
+file.x86_64                             5.11-36.el7                @base        
+file-libs.x86_64                        5.11-36.el7                @base        
+filesystem.x86_64                       3.2-25.el7                 @base        
+findutils.x86_64                        1:4.5.11-6.el7             @base        
+finger.x86_64                           0.17-52.el7                @base        
+fipscheck.x86_64                        1.4.1-6.el7                @anaconda    
+fipscheck-lib.x86_64                    1.4.1-6.el7                @anaconda    
+firewalld.noarch                        0.6.3-8.el7_8.1            @updates     
+firewalld-filesystem.noarch             0.6.3-8.el7_8.1            @updates     
+flac.x86_64                             1.3.0-5.el7_1              @base        
+flac-libs.x86_64                        1.3.0-5.el7_1              @base        
+flex.x86_64                             2.5.37-6.el7               @base        
+fontconfig.x86_64                       2.13.0-4.3.el7             @base        
+fontconfig-devel.x86_64                 2.13.0-4.3.el7             @base        
+fontpackages-filesystem.noarch          1.44-8.el7                 @base        
+freeglut.x86_64                         3.0.0-8.el7                @base        
+freetype.x86_64                         2.8-14.el7                 @base        
+freetype-devel.x86_64                   2.8-14.el7                 @base        
+fribidi.x86_64                          1.0.2-1.el7_7.1            @updates     
+ftp.x86_64                              0.17-67.el7                @base        
+fxload.x86_64                           2002_04_11-16.el7          @anaconda    
+gawk.x86_64                             4.0.2-4.el7_3.1            @anaconda    
+gc.x86_64                               7.2d-7.el7                 @base        
+gcc.x86_64                              4.8.5-39.el7               @base        
+gcc-c++.x86_64                          4.8.5-39.el7               @base        
+gcc-gfortran.x86_64                     4.8.5-39.el7               @base        
+gcr.x86_64                              3.28.0-1.el7               @base        
+gd.x86_64                               2.0.35-26.el7              @base        
+gd-last.x86_64                          2.3.0-2.el7.remi           @remi-safe   
+gdb.x86_64                              7.6.1-119.el7              @base        
+gdbm.x86_64                             1.10-8.el7                 @anaconda    
+gdbm-devel.x86_64                       1.10-8.el7                 @base        
+gdisk.x86_64                            0.8.10-3.el7               @base        
+gdk-pixbuf2.x86_64                      2.36.12-3.el7              @base        
+geany.x86_64                            1.36-2.el7                 @epel        
+geany-libgeany.x86_64                   1.36-2.el7                 @epel        
+gedit.x86_64                            2:3.28.1-1.el7             @base        
+gedit-plugin-bookmarks.x86_64           3.28.1-1.el7               @base        
+gedit-plugin-bracketcompletion.x86_64   3.28.1-1.el7               @base        
+gedit-plugin-charmap.x86_64             3.28.1-1.el7               @base        
+gedit-plugin-codecomment.x86_64         3.28.1-1.el7               @base        
+gedit-plugin-colorpicker.x86_64         3.28.1-1.el7               @base        
+gedit-plugin-colorschemer.x86_64        3.28.1-1.el7               @base        
+gedit-plugin-commander.x86_64           3.28.1-1.el7               @base        
+gedit-plugin-drawspaces.x86_64          3.28.1-1.el7               @base        
+gedit-plugin-joinlines.x86_64           3.28.1-1.el7               @base        
+gedit-plugin-multiedit.x86_64           3.28.1-1.el7               @base        
+gedit-plugin-smartspaces.x86_64         3.28.1-1.el7               @base        
+gedit-plugin-synctex.x86_64             3.28.1-1.el7               @base        
+gedit-plugin-terminal.x86_64            3.28.1-1.el7               @base        
+gedit-plugin-textsize.x86_64            3.28.1-1.el7               @base        
+gedit-plugin-wordcompletion.x86_64      3.28.1-1.el7               @base        
+gedit-plugins.x86_64                    3.28.1-1.el7               @base        
+gedit-plugins-data.x86_64               3.28.1-1.el7               @base        
+geoclue2.x86_64                         2.4.8-1.el7                @base        
+geoipupdate.x86_64                      2.5.0-1.el7                @base        
+gettext.x86_64                          0.19.8.1-3.el7             @base        
+gettext-common-devel.noarch             0.19.8.1-3.el7             @base        
+gettext-devel.x86_64                    0.19.8.1-3.el7             @base        
+gettext-libs.x86_64                     0.19.8.1-3.el7             @base        
+ghostscript.x86_64                      9.25-2.el7_7.3             @updates     
+ghostscript-fonts.noarch                5.50-32.el7                @base        
+giflib.x86_64                           4.1.6-9.el7                @base        
+git.x86_64                              2.22.0-1.WANdisco.437      @WANdisco-git
+glib-networking.x86_64                  2.56.1-1.el7               @base        
+glib2.x86_64                            2.56.1-5.el7               @base        
+glibc.i686                              2.17-307.el7.1             @base        
+glibc.x86_64                            2.17-307.el7.1             @base        
+glibc-common.x86_64                     2.17-307.el7.1             @base        
+glibc-devel.i686                        2.17-307.el7.1             @base        
+glibc-devel.x86_64                      2.17-307.el7.1             @base        
+glibc-headers.x86_64                    2.17-307.el7.1             @base        
+glibmm24.x86_64                         2.56.0-1.el7               @base        
+gmp.x86_64                              1:6.0.0-15.el7             @anaconda    
+gmp-devel.x86_64                        1:6.0.0-15.el7             @base        
+gnupg2.x86_64                           2.0.22-5.el7_5             @base        
+gnuplot.x86_64                          4.6.2-3.el7                @base        
+gnuplot-common.x86_64                   4.6.2-3.el7                @base        
+gnutls.x86_64                           3.3.29-9.el7_6             @updates     
+gobject-introspection.x86_64            1.56.1-1.el7               @base        
+golang.x86_64                           1.13.14-1.el7              @epel        
+golang-bin.x86_64                       1.13.14-1.el7              @epel        
+golang-src.noarch                       1.13.14-1.el7              @epel        
+gpgme.x86_64                            1.3.2-5.el7                @anaconda    
+gpm-libs.x86_64                         1.20.7-6.el7               @base        
+graphite2.x86_64                        1.3.10-1.el7_3             @updates     
+graphviz.x86_64                         2.30.1-21.el7              @base        
+graphviz-perl.x86_64                    2.30.1-21.el7              @base        
+grep.x86_64                             2.20-3.el7                 @anaconda    
+groff-base.x86_64                       1.22.2-8.el7               @anaconda    
+grub2.x86_64                            1:2.02-0.86.el7.centos     @updates     
+grub2-common.noarch                     1:2.02-0.86.el7.centos     @updates     
+grub2-efi-x64.x86_64                    1:2.02-0.86.el7.centos     @updates     
+grub2-pc.x86_64                         1:2.02-0.86.el7.centos     @updates     
+grub2-pc-modules.noarch                 1:2.02-0.86.el7.centos     @updates     
+grub2-tools.x86_64                      1:2.02-0.86.el7.centos     @updates     
+grub2-tools-extra.x86_64                1:2.02-0.86.el7.centos     @updates     
+grub2-tools-minimal.x86_64              1:2.02-0.86.el7.centos     @updates     
+grubby.x86_64                           8.28-26.el7                @base        
+gsettings-desktop-schemas.x86_64        3.28.0-3.el7               @base        
+gsl.x86_64                              1.15-13.el7                @base        
+gsl-devel.x86_64                        1.15-13.el7                @base        
+gsm.x86_64                              1.0.13-11.el7              @base        
+gspell.x86_64                           1.6.1-1.el7                @base        
+gssproxy.x86_64                         0.7.0-28.el7               @base        
+gstreamer.x86_64                        0.10.36-7.el7              @base        
+gstreamer-tools.x86_64                  0.10.36-7.el7              @base        
+gstreamer1.x86_64                       1.10.4-2.el7               @base        
+gstreamer1-plugins-bad-free.x86_64      1.10.4-3.el7               @base        
+gstreamer1-plugins-base.x86_64          1.10.4-2.el7               @base        
+gtk-update-icon-cache.x86_64            3.22.30-5.el7              @base        
+gtk2.x86_64                             2.24.31-1.el7              @base        
+gtk3.x86_64                             3.22.30-5.el7              @base        
+gtkmm24.x86_64                          2.24.5-1.el7               @base        
+gtksourceview3.x86_64                   3.24.8-1.el7               @base        
+gtkspell.x86_64                         2.0.16-8.el7               @base        
+gucharmap.x86_64                        10.0.4-1.el7               @base        
+gucharmap-libs.x86_64                   10.0.4-1.el7               @base        
+gvfs.x86_64                             1.36.2-3.el7               @base        
+gvfs-client.x86_64                      1.36.2-3.el7               @base        
+gzip.x86_64                             1.5-10.el7                 @base        
+hardlink.x86_64                         1:1.0-19.el7               @anaconda    
+harfbuzz.x86_64                         1.7.5-2.el7                @base        
+harfbuzz-icu.x86_64                     1.7.5-2.el7                @base        
+hicolor-icon-theme.noarch               0.12-7.el7                 @base        
+hostname.x86_64                         3.13-3.el7_7.1             @updates     
+httpd.x86_64                            2.4.6-93.el7.centos        @base        
+httpd-tools.x86_64                      2.4.6-93.el7.centos        @base        
+hunspell.x86_64                         1.3.2-15.el7               @base        
+hunspell-en-US.noarch                   0.20121024-6.el7           @base        
+hwdata.x86_64                           0.252-9.5.el7              @base        
+hyphen.x86_64                           2.8.6-5.el7                @base        
+iftop.x86_64                            1.0-0.21.pre4.el7          @epel        
+ilmbase.x86_64                          1.0.3-7.el7                @base        
+indent.x86_64                           2.2.11-13.el7              @base        
+info.x86_64                             5.1-5.el7                  @base        
+initscripts.x86_64                      9.49.49-1.el7              @base        
+inkscape.x86_64                         0.92.2-3.el7               @base        
+intltool.noarch                         0.50.2-7.el7               @base        
+iotop.noarch                            0.6-4.el7                  @base        
+iproute.x86_64                          4.11.0-25.el7_7.2          @updates     
+iprutils.x86_64                         2.4.17.1-3.el7_7           @updates     
+ipset.x86_64                            7.1-1.el7                  @base        
+ipset-libs.x86_64                       7.1-1.el7                  @base        
+iptables.x86_64                         1.4.21-34.el7              @base        
+iptables-services.x86_64                1.4.21-34.el7              @base        
+iptraf-ng.x86_64                        1.1.4-7.el7                @base        
+iputils.x86_64                          20160308-10.el7            @anaconda    
+irqbalance.x86_64                       3:1.0.7-12.el7             @base        
+iso-codes.noarch                        3.46-2.el7                 @base        
+ius-release.noarch                      2-1.el7.ius                @ius         
+ivtv-firmware.noarch                    2:20080701-26.el7          @anaconda    
+iwl100-firmware.noarch                  39.31.5.1-76.el7           @base        
+iwl1000-firmware.noarch                 1:39.31.5.1-76.el7         @base        
+iwl105-firmware.noarch                  18.168.6.1-76.el7          @base        
+iwl135-firmware.noarch                  18.168.6.1-76.el7          @base        
+iwl2000-firmware.noarch                 18.168.6.1-76.el7          @base        
+iwl2030-firmware.noarch                 18.168.6.1-76.el7          @base        
+iwl3160-firmware.noarch                 25.30.13.0-76.el7          @base        
+iwl3945-firmware.noarch                 15.32.2.9-76.el7           @base        
+iwl4965-firmware.noarch                 228.61.2.24-76.el7         @base        
+iwl5000-firmware.noarch                 8.83.5.1_1-76.el7          @base        
+iwl5150-firmware.noarch                 8.24.2.2-76.el7            @base        
+iwl6000-firmware.noarch                 9.221.4.1-76.el7           @base        
+iwl6000g2a-firmware.noarch              18.168.6.1-76.el7          @base        
+iwl6000g2b-firmware.noarch              18.168.6.1-76.el7          @base        
+iwl6050-firmware.noarch                 41.28.5.1-76.el7           @base        
+iwl7260-firmware.noarch                 25.30.13.0-76.el7          @base        
+jack-audio-connection-kit.x86_64        1.9.9.5-6.el7              @epel        
+jansson.x86_64                          2.10-1.el7                 @anaconda    
+jasper-libs.x86_64                      1.900.1-33.el7             @base        
+java-1.8.0-openjdk.x86_64               1:1.8.0.262.b10-0.el7_8    @updates     
+java-1.8.0-openjdk-devel.x86_64         1:1.8.0.262.b10-0.el7_8    @updates     
+java-1.8.0-openjdk-headless.x86_64      1:1.8.0.262.b10-0.el7_8    @updates     
+javapackages-tools.noarch               3.4.1-11.el7               @base        
+jbigkit-libs.x86_64                     2.0-11.el7                 @base        
+json-c.x86_64                           0.11-4.el7_0               @base        
+json-glib.x86_64                        1.4.2-2.el7                @base        
+kbd.x86_64                              1.15.5-15.el7              @base        
+kbd-legacy.noarch                       1.15.5-15.el7              @base        
+kbd-misc.noarch                         1.15.5-15.el7              @base        
+kernel.x86_64                           3.10.0-957.27.2.el7        @updates     
+kernel.x86_64                           3.10.0-1062.9.1.el7        @updates     
+kernel.x86_64                           3.10.0-1062.18.1.el7       @updates     
+kernel.x86_64                           3.10.0-1127.el7            @base        
+kernel.x86_64                           3.10.0-1127.18.2.el7       @updates     
+kernel-debug-devel.x86_64               3.10.0-1127.18.2.el7       @updates     
+kernel-headers.x86_64                   3.10.0-1127.18.2.el7       @updates     
+kernel-tools.x86_64                     3.10.0-1127.18.2.el7       @updates     
+kernel-tools-libs.x86_64                3.10.0-1127.18.2.el7       @updates     
+kexec-tools.x86_64                      2.0.15-43.el7              @base        
+keyutils.x86_64                         1.5.8-3.el7                @base        
+keyutils-libs.x86_64                    1.5.8-3.el7                @anaconda    
+keyutils-libs-devel.x86_64              1.5.8-3.el7                @base        
+kmod.x86_64                             20-28.el7                  @base        
+kmod-libs.x86_64                        20-28.el7                  @base        
+kpartx.x86_64                           0.4.9-131.el7              @base        
+krb5-devel.x86_64                       1.15.1-46.el7              @base        
+krb5-libs.x86_64                        1.15.1-46.el7              @base        
+ksh.x86_64                              20120801-142.el7           @base        
+lame.x86_64                             3.100-1.el7                @epel        
+lame-libs.x86_64                        3.100-1.el7                @epel        
+lapack.x86_64                           3.4.2-8.el7                @base        
+lcms2.x86_64                            2.6-3.el7                  @base        
+less.x86_64                             458-9.el7                  @anaconda    
+libICE.x86_64                           1.0.9-9.el7                @base        
+libICE-devel.x86_64                     1.0.9-9.el7                @base        
+libSM.x86_64                            1.2.2-2.el7                @base        
+libSM-devel.x86_64                      1.2.2-2.el7                @base        
+libX11.x86_64                           1.6.7-2.el7                @base        
+libX11-common.noarch                    1.6.7-2.el7                @base        
+libX11-devel.x86_64                     1.6.7-2.el7                @base        
+libXau.x86_64                           1.0.8-2.1.el7              @base        
+libXau-devel.x86_64                     1.0.8-2.1.el7              @base        
+libXaw.x86_64                           1.0.13-4.el7               @base        
+libXcomposite.x86_64                    0.4.4-4.1.el7              @base        
+libXcursor.x86_64                       1.1.15-1.el7               @base        
+libXdamage.x86_64                       1.1.4-4.1.el7              @base        
+libXext.x86_64                          1.3.3-3.el7                @base        
+libXext-devel.x86_64                    1.3.3-3.el7                @base        
+libXfixes.x86_64                        5.0.3-1.el7                @base        
+libXfont.x86_64                         1.5.4-1.el7                @base        
+libXft.x86_64                           2.3.2-2.el7                @base        
+libXft-devel.x86_64                     2.3.2-2.el7                @base        
+libXi.x86_64                            1.7.9-1.el7                @base        
+libXinerama.x86_64                      1.1.3-2.1.el7              @base        
+libXmu.x86_64                           1.1.2-2.el7                @base        
+libXmu-devel.x86_64                     1.1.2-2.el7                @base        
+libXp.x86_64                            1.0.2-2.1.el7              @base        
+libXp-devel.x86_64                      1.0.2-2.1.el7              @base        
+libXpm.x86_64                           3.5.12-1.el7               @base        
+libXrandr.x86_64                        1.5.1-2.el7                @base        
+libXrender.x86_64                       0.9.10-1.el7               @base        
+libXrender-devel.x86_64                 0.9.10-1.el7               @base        
+libXt.x86_64                            1.1.5-3.el7                @base        
+libXt-devel.x86_64                      1.1.5-3.el7                @base        
+libXtst.x86_64                          1.2.3-1.el7                @base        
+libXv.x86_64                            1.0.11-1.el7               @base        
+libXxf86dga.x86_64                      1.1.4-2.1.el7              @base        
+libXxf86misc.x86_64                     1.0.3-7.1.el7              @base        
+libXxf86vm.x86_64                       1.1.4-1.el7                @base        
+libacl.x86_64                           2.2.51-15.el7              @base        
+libaio.i686                             0.3.109-13.el7             @base        
+libaio.x86_64                           0.3.109-13.el7             @anaconda    
+libarchive.x86_64                       3.1.2-14.el7_7             @updates     
+libargon2.x86_64                        20161029-3.el7             @epel        
+libart_lgpl.x86_64                      2.3.21-10.el7              @base        
+libassuan.x86_64                        2.1.0-3.el7                @anaconda    
+libasyncns.x86_64                       0.8-7.el7                  @base        
+libatasmart.x86_64                      0.19-6.el7                 @base        
+libattr.x86_64                          2.4.46-13.el7              @base        
+libbasicobjects.x86_64                  0.1.1-32.el7               @base        
+libblkid.x86_64                         2.23.2-63.el7              @base        
+libblockdev.x86_64                      2.18-5.el7                 @base        
+libblockdev-crypto.x86_64               2.18-5.el7                 @base        
+libblockdev-fs.x86_64                   2.18-5.el7                 @base        
+libblockdev-loop.x86_64                 2.18-5.el7                 @base        
+libblockdev-mdraid.x86_64               2.18-5.el7                 @base        
+libblockdev-part.x86_64                 2.18-5.el7                 @base        
+libblockdev-swap.x86_64                 2.18-5.el7                 @base        
+libblockdev-utils.x86_64                2.18-5.el7                 @base        
+libbluray.x86_64                        0.2.3-5.el7                @base        
+libbytesize.x86_64                      1.2-1.el7                  @base        
+libcap.x86_64                           2.22-11.el7                @base        
+libcap-devel.x86_64                     2.22-11.el7                @base        
+libcap-ng.x86_64                        0.7.5-4.el7                @anaconda    
+libcdio.x86_64                          0.92-3.el7                 @base        
+libcdio-paranoia.x86_64                 10.2+0.90-11.el7           @base        
+libcollection.x86_64                    0.7.0-32.el7               @base        
+libcom_err.x86_64                       1.42.9-17.el7              @base        
+libcom_err-devel.x86_64                 1.42.9-17.el7              @base        
+libconfig.x86_64                        1.4.9-5.el7                @base        
+libcroco.x86_64                         0.6.12-4.el7               @base        
+libcurl.x86_64                          7.29.0-57.el7_8.1          @updates     
+libdaemon.x86_64                        0.14-7.el7                 @anaconda    
+libdb.x86_64                            5.3.21-25.el7              @base        
+libdb-devel.x86_64                      5.3.21-25.el7              @base        
+libdb-utils.x86_64                      5.3.21-25.el7              @base        
+libdb4.x86_64                           4.8.30-13.el7              @epel        
+libdb4-devel.x86_64                     4.8.30-13.el7              @epel        
+libdmx.x86_64                           1.1.3-3.el7                @base        
+libdrm.x86_64                           2.4.97-2.el7               @base        
+libdvdnav.x86_64                        5.0.3-1.el7                @base        
+libdvdread.x86_64                       5.0.3-3.el7                @base        
+libdwarf.x86_64                         20130207-4.el7             @base        
+libedit.x86_64                          3.0-12.20121213cvs.el7     @anaconda    
+libepoxy.x86_64                         1.5.2-1.el7                @base        
+libestr.x86_64                          0.1.9-2.el7                @anaconda    
+libevent.x86_64                         2.0.21-4.el7               @base        
+libfastjson.x86_64                      0.99.4-3.el7               @base        
+libffado.x86_64                         2.1.0-4.el7                @epel        
+libffi.x86_64                           3.0.13-19.el7              @base        
+libffi-devel.x86_64                     3.0.13-19.el7              @base        
+libfontenc.x86_64                       1.1.3-3.el7                @base        
+libgcc.i686                             4.8.5-39.el7               @base        
+libgcc.x86_64                           4.8.5-39.el7               @base        
+libgcrypt.x86_64                        1.5.3-14.el7               @anaconda    
+libgfortran.x86_64                      4.8.5-39.el7               @base        
+libglvnd.x86_64                         1:1.0.1-0.8.git5baa1e5.el7 @base        
+libglvnd-egl.x86_64                     1:1.0.1-0.8.git5baa1e5.el7 @base        
+libglvnd-gles.x86_64                    1:1.0.1-0.8.git5baa1e5.el7 @base        
+libglvnd-glx.x86_64                     1:1.0.1-0.8.git5baa1e5.el7 @base        
+libgnome-keyring.x86_64                 3.12.0-1.el7               @base        
+libgomp.x86_64                          4.8.5-39.el7               @base        
+libgpg-error.x86_64                     1.12-3.el7                 @anaconda    
+libgs.x86_64                            9.25-2.el7_7.3             @updates     
+libgudev1.x86_64                        219-73.el7_8.9             @updates     
+libgusb.x86_64                          0.2.9-1.el7                @base        
+libicu.x86_64                           50.2-4.el7_7               @updates     
+libicu62.x86_64                         62.2-1.el7.remi            @remi-safe   
+libicu65.x86_64                         65.1-1.el7.remi            @remi-safe   
+libid3tag.x86_64                        0.15.1b-17.el7             @base        
+libidn.x86_64                           1.28-4.el7                 @anaconda    
+libiec61883.x86_64                      1.2.0-10.el7               @base        
+libini_config.x86_64                    1.3.1-32.el7               @base        
+libjpeg-turbo.x86_64                    1.2.90-8.el7               @base        
+libjpeg-turbo-devel.x86_64              1.2.90-8.el7               @base        
+libkadm5.x86_64                         1.15.1-46.el7              @base        
+liblockfile.x86_64                      1.08-17.el7                @base        
+libmad.x86_64                           0.15.1b-26.el7             @epel        
+libmnl.x86_64                           1.0.3-7.el7                @anaconda    
+libmodman.x86_64                        2.0.1-8.el7                @base        
+libmount.x86_64                         2.23.2-63.el7              @base        
+libmpc.x86_64                           1.0.1-3.el7                @base        
+libmpc-devel.x86_64                     1.0.1-3.el7                @base        
+libmpcdec.x86_64                        1.2.6-12.el7               @base        
+libmspack.x86_64                        0.5-0.7.alpha.el7          @base        
+libndp.x86_64                           1.2-9.el7                  @base        
+libnetfilter_conntrack.x86_64           1.0.6-1.el7_3              @anaconda    
+libnfnetlink.x86_64                     1.0.1-4.el7                @anaconda    
+libnfsidmap.x86_64                      0.25-19.el7                @base        
+libnl3.x86_64                           3.2.28-4.el7               @anaconda    
+libnl3-cli.x86_64                       3.2.28-4.el7               @anaconda    
+libnotify.x86_64                        0.7.7-1.el7                @base        
+libogg.x86_64                           2:1.3.0-7.el7              @base        
+libotf.x86_64                           0.9.13-4.el7               @base        
+libpaper.x86_64                         1.1.24-8.el7               @base        
+libpath_utils.x86_64                    0.2.1-32.el7               @base        
+libpcap.x86_64                          14:1.5.3-12.el7            @base        
+libpciaccess.x86_64                     0.14-1.el7                 @base        
+libpeas.x86_64                          1.22.0-1.el7               @base        
+libpeas-gtk.x86_64                      1.22.0-1.el7               @base        
+libpeas-loader-python.x86_64            1.22.0-1.el7               @base        
+libpipeline.x86_64                      1.2.3-3.el7                @anaconda    
+libpng.x86_64                           2:1.5.13-7.el7_2           @base        
+libpng-devel.x86_64                     2:1.5.13-7.el7_2           @base        
+libproxy.x86_64                         0.4.11-11.el7              @base        
+libpwquality.x86_64                     1.2.3-5.el7                @base        
+libquadmath.x86_64                      4.8.5-39.el7               @base        
+libquadmath-devel.x86_64                4.8.5-39.el7               @base        
+libraqm.x86_64                          0.7.0-4.el7                @epel        
+libraw1394.x86_64                       2.1.0-2.el7                @base        
+libref_array.x86_64                     0.1.5-32.el7               @base        
+libreport-filesystem.x86_64             2.1.11-53.el7.centos       @base        
+librevenge.x86_64                       0.0.2-2.el7                @base        
+librsvg2.x86_64                         2.40.20-1.el7              @base        
+libsamplerate.x86_64                    0.1.8-6.el7                @base        
+libseccomp.x86_64                       2.3.1-4.el7                @base        
+libsecret.x86_64                        0.18.6-1.el7               @base        
+libselinux.x86_64                       2.5-15.el7                 @base        
+libselinux-devel.x86_64                 2.5-15.el7                 @base        
+libselinux-python.x86_64                2.5-15.el7                 @base        
+libselinux-utils.x86_64                 2.5-15.el7                 @base        
+libsemanage.x86_64                      2.5-14.el7                 @base        
+libsepol.x86_64                         2.5-10.el7                 @base        
+libsepol-devel.x86_64                   2.5-10.el7                 @base        
+libsigc++20.x86_64                      2.10.0-1.el7               @base        
+libsmartcols.x86_64                     2.23.2-63.el7              @base        
+libsmi.x86_64                           0.4.8-13.el7               @base        
+libsndfile.x86_64                       1.0.25-11.el7              @base        
+libsoup.x86_64                          2.62.2-2.el7               @base        
+libsrtp.x86_64                          1.4.4-10.20101004cvs.el7   @base        
+libss.x86_64                            1.42.9-17.el7              @base        
+libssh2.x86_64                          1.8.0-3.el7                @base        
+libstdc++.i686                          4.8.5-39.el7               @base        
+libstdc++.x86_64                        4.8.5-39.el7               @base        
+libstdc++-devel.x86_64                  4.8.5-39.el7               @base        
+libsysfs.x86_64                         2.1.0-16.el7               @anaconda    
+libtasn1.x86_64                         4.10-1.el7                 @anaconda    
+libteam.x86_64                          1.29-1.el7                 @base        
+libthai.x86_64                          0.1.14-9.el7               @base        
+libtheora.x86_64                        1:1.1.1-8.el7              @base        
+libtiff.x86_64                          4.0.3-32.el7               @base        
+libtirpc.x86_64                         0.2.4-0.16.el7             @base        
+libtomcrypt.x86_64                      1.17-26.el7                @extras      
+libtommath.x86_64                       0.42.0-6.el7               @extras      
+libtool.x86_64                          2.4.2-22.el7_3             @base        
+libtool-ltdl.x86_64                     2.4.2-22.el7_3             @base        
+libudisks2.x86_64                       2.8.4-1.el7                @base        
+libunistring.x86_64                     0.9.3-9.el7                @anaconda    
+libusbx.x86_64                          1.0.21-1.el7               @base        
+libuser.x86_64                          0.60-9.el7                 @base        
+libutempter.x86_64                      1.1.6-4.el7                @anaconda    
+libuuid.x86_64                          2.23.2-63.el7              @base        
+libuuid-devel.x86_64                    2.23.2-63.el7              @base        
+libverto.x86_64                         0.2.5-4.el7                @anaconda    
+libverto-devel.x86_64                   0.2.5-4.el7                @base        
+libverto-libevent.x86_64                0.2.5-4.el7                @base        
+libvisual.x86_64                        0.4.0-16.el7               @base        
+libvorbis.x86_64                        1:1.3.3-8.el7.1            @base        
+libwayland-client.x86_64                1.15.0-1.el7               @base        
+libwayland-cursor.x86_64                1.15.0-1.el7               @base        
+libwayland-egl.x86_64                   1.15.0-1.el7               @base        
+libwayland-server.x86_64                1.15.0-1.el7               @base        
+libwebp.x86_64                          0.3.0-7.el7                @base        
+libwebp7.x86_64                         1.0.3-1.el7.remi           @remi-safe   
+libwmf-lite.x86_64                      0.2.8.4-41.el7_1           @base        
+libwpd.x86_64                           0.10.0-2.el7               @base        
+libwpg.x86_64                           0.3.0-1.el7                @base        
+libxcb.x86_64                           1.13-1.el7                 @base        
+libxcb-devel.x86_64                     1.13-1.el7                 @base        
+libxkbcommon.x86_64                     0.7.1-3.el7                @base        
+libxkbfile.x86_64                       1.0.9-3.el7                @base        
+libxml++.x86_64                         2.37.1-1.el7               @epel        
+libxml2.x86_64                          2.9.1-6.el7.4              @base        
+libxml2-python.x86_64                   2.9.1-6.el7.4              @base        
+libxshmfence.x86_64                     1.2-1.el7                  @base        
+libxslt.x86_64                          1.1.28-5.el7               @base        
+libyaml.x86_64                          0.1.4-11.el7_0             @base        
+libyaml-devel.x86_64                    0.1.4-11.el7_0             @base        
+libzip.x86_64                           0.10.1-8.el7               @base        
+linux-firmware.noarch                   20191203-76.gite8a0f4c.el7 @base        
+lksctp-tools.x86_64                     1.0.17-2.el7               @base        
+lm_sensors-libs.x86_64                  3.4.0-8.20160601gitf9185e5.el7
+                                                                   @base        
+logrotate.x86_64                        3.8.6-19.el7               @base        
+loudmouth.x86_64                        1.5.3-1.el7                @epel        
+lsof.x86_64                             4.87-6.el7                 @base        
+lsscsi.x86_64                           0.27-6.el7                 @anaconda    
+lua.x86_64                              5.1.4-15.el7               @anaconda    
+lvm2.x86_64                             7:2.02.186-7.el7_8.2       @updates     
+lvm2-libs.x86_64                        7:2.02.186-7.el7_8.2       @updates     
+lynx.x86_64                             2.8.8-0.3.dev15.el7        @base        
+lz4.x86_64                              1.7.5-3.el7                @base        
+lzo.x86_64                              2.06-8.el7                 @anaconda    
+m17n-db.noarch                          1.6.4-4.el7                @base        
+m17n-lib.x86_64                         1.6.4-14.el7               @base        
+m4.x86_64                               1.4.16-10.el7              @base        
+mailcap.noarch                          2.1.41-2.el7               @base        
+mailx.x86_64                            12.5-19.el7                @base        
+make.x86_64                             1:3.82-24.el7              @base        
+man-db.x86_64                           2.6.3-11.el7               @base        
+man-pages.noarch                        3.53-5.el7                 @base        
+mc.x86_64                               1:4.8.7-11.el7             @base        
+mdadm.x86_64                            4.1-4.el7                  @base        
+mercurial.x86_64                        2.6.2-11.el7               @base        
+mesa-libEGL.x86_64                      18.3.4-7.el7_8.1           @updates     
+mesa-libGL.x86_64                       18.3.4-7.el7_8.1           @updates     
+mesa-libgbm.x86_64                      18.3.4-7.el7_8.1           @updates     
+mesa-libglapi.x86_64                    18.3.4-7.el7_8.1           @updates     
+microcode_ctl.x86_64                    2:2.1-61.10.el7_8          @updates     
+microsoft-hyper-v-debuginfo.x86_64      4.2.3-20170925             installed    
+mod_proxy_html.x86_64                   1:2.4.6-93.el7.centos      @base        
+mod_ssl.x86_64                          1:2.4.6-93.el7.centos      @base        
+mokutil.x86_64                          15-8.el7                   @updates     
+motif.x86_64                            2.3.4-14.el7_5             @base        
+motif-devel.x86_64                      2.3.4-14.el7_5             @base        
+mozjs17.x86_64                          17.0.0-20.el7              @base        
+mpfr.x86_64                             3.1.1-4.el7                @base        
+mpfr-devel.x86_64                       3.1.1-4.el7                @base        
+mysql-community-client.x86_64           5.7.31-1.el7               @mysql57-community
+mysql-community-common.x86_64           5.7.31-1.el7               @mysql57-community
+mysql-community-libs.x86_64             5.7.31-1.el7               @mysql57-community
+mysql-community-libs-compat.x86_64      5.7.31-1.el7               @mysql57-community
+mysql57-community-release.noarch        el7-10                     @mysql57-community
+nano.x86_64                             2.3.1-10.el7               @base        
+ncurses.x86_64                          5.9-14.20130511.el7_4      @updates     
+ncurses-base.noarch                     5.9-14.20130511.el7_4      @updates     
+ncurses-devel.x86_64                    5.9-14.20130511.el7_4      @updates     
+ncurses-libs.i686                       5.9-14.20130511.el7_4      @updates     
+ncurses-libs.x86_64                     5.9-14.20130511.el7_4      @updates     
+neon.x86_64                             0.30.0-4.el7               @base        
+net-snmp.x86_64                         1:5.7.2-48.el7_8.1         @updates     
+net-snmp-agent-libs.x86_64              1:5.7.2-48.el7_8.1         @updates     
+net-snmp-libs.x86_64                    1:5.7.2-48.el7_8.1         @updates     
+net-snmp-utils.x86_64                   1:5.7.2-48.el7_8.1         @updates     
+net-tools.x86_64                        2.0-0.25.20131004git.el7   @base        
+nettle.x86_64                           2.7.1-8.el7                @base        
+newt.x86_64                             0.52.15-4.el7              @anaconda    
+newt-python.x86_64                      0.52.15-4.el7              @anaconda    
+nfs-utils.x86_64                        1:1.3.0-0.66.el7_8         @updates     
+nmap.x86_64                             2:6.40-19.el7              @base        
+nmap-ncat.x86_64                        2:6.40-19.el7              @base        
+nscd.x86_64                             2.17-307.el7.1             @base        
+nspr.x86_64                             4.21.0-1.el7               @base        
+nss.x86_64                              3.44.0-7.el7_7             @updates     
+nss-pam-ldapd.x86_64                    0.8.13-22.el7_8.1          @updates     
+nss-pem.x86_64                          1.0.3-7.el7                @base        
+nss-softokn.x86_64                      3.44.0-8.el7_7             @updates     
+nss-softokn-freebl.i686                 3.44.0-8.el7_7             @updates     
+nss-softokn-freebl.x86_64               3.44.0-8.el7_7             @updates     
+nss-sysinit.x86_64                      3.44.0-7.el7_7             @updates     
+nss-tools.x86_64                        3.44.0-7.el7_7             @updates     
+nss-util.x86_64                         3.44.0-4.el7_7             @updates     
+ntp.x86_64                              4.2.6p5-29.el7.centos.2    @updates     
+ntpdate.x86_64                          4.2.6p5-29.el7.centos.2    @updates     
+numactl-libs.x86_64                     2.0.12-5.el7               @base        
+numpy.x86_64                            1:1.7.1-13.el7             @base        
+nvidia-query-resource-opengl.x86_64     1.0.0-2.el7                @epel        
+nvidia-query-resource-opengl-lib.x86_64 1.0.0-2.el7                @epel        
+nvidia-texture-tools.x86_64             2.0.8-13.el7               @epel        
+nvidia-texture-tools-devel.x86_64       2.0.8-13.el7               @epel        
+ocaml.x86_64                            4.05.0-6.el7               @base        
+ocaml-compiler-libs.x86_64              4.05.0-6.el7               @base        
+ocaml-runtime.x86_64                    4.05.0-6.el7               @base        
+ocaml-srpm-macros.noarch                5-2.el7                    @base        
+oniguruma5php.x86_64                    6.9.5+rev1-2.el7.remi      @remi-safe   
+openjpeg-libs.x86_64                    1.5.1-18.el7               @base        
+openjpeg2.x86_64                        2.3.1-3.el7_7              @updates     
+openldap.x86_64                         2.4.44-21.el7_6            @updates     
+openldap-clients.x86_64                 2.4.44-21.el7_6            @updates     
+openssh.x86_64                          7.4p1-21.el7               @base        
+openssh-clients.x86_64                  7.4p1-21.el7               @base        
+openssh-server.x86_64                   7.4p1-21.el7               @base        
+openssl.x86_64                          1:1.0.2k-19.el7            @base        
+openssl-devel.x86_64                    1:1.0.2k-19.el7            @base        
+openssl-libs.x86_64                     1:1.0.2k-19.el7            @base        
+oprofile.x86_64                         0.9.9-27.el7               @base        
+opus.x86_64                             1.0.2-6.el7                @base        
+orc.x86_64                              0.4.26-1.el7               @base        
+os-prober.x86_64                        1.58-9.el7                 @anaconda    
+p11-kit.x86_64                          0.23.5-3.el7               @anaconda    
+p11-kit-trust.x86_64                    0.23.5-3.el7               @anaconda    
+pakchois.x86_64                         0.4-10.el7                 @base        
+pam.x86_64                              1.1.8-23.el7               @base        
+pango.x86_64                            1.42.4-4.el7_7             @updates     
+pangomm.x86_64                          2.40.1-1.el7               @base        
+parted.x86_64                           3.1-32.el7                 @base        
+passwd.x86_64                           0.79-6.el7                 @base        
+patch.x86_64                            2.7.1-12.el7_7             @updates     
+patchutils.x86_64                       0.3.3-4.el7                @base        
+pciutils-libs.x86_64                    3.5.1-3.el7                @base        
+pcre.x86_64                             8.32-17.el7                @anaconda    
+pcre-devel.x86_64                       8.32-17.el7                @base        
+pcre2.x86_64                            10.23-2.el7                @base        
+pcsc-lite-libs.x86_64                   1.8.8-8.el7                @base        
+perf.x86_64                             3.10.0-1127.18.2.el7       @updates     
+perl.x86_64                             4:5.16.3-295.el7           @base        
+perl-Algorithm-Diff.noarch              1.1902-17.el7              @base        
+perl-App-cpanminus.noarch               1.6922-2.el7               @base        
+perl-Archive-Zip.noarch                 1.30-11.el7                @base        
+perl-Bit-Vector.x86_64                  7.3-3.el7                  @base        
+perl-Business-ISBN.noarch               2.06-2.el7                 @base        
+perl-Business-ISBN-Data.noarch          20120719.001-2.el7         @base        
+perl-CGI.noarch                         3.63-4.el7                 @base        
+perl-CGI-Session.noarch                 4.35-16.el7                @base        
+perl-CPAN.noarch                        1.9800-295.el7             @base        
+perl-CPAN-Meta.noarch                   2.120921-5.el7             @base        
+perl-CPAN-Meta-Requirements.noarch      2.122-7.el7                @base        
+perl-CPAN-Meta-YAML.noarch              0.008-14.el7               @base        
+perl-Carp.noarch                        1.26-244.el7               @base        
+perl-Carp-Clan.noarch                   6.04-10.el7                @base        
+perl-Compress-Raw-Bzip2.x86_64          2.061-3.el7                @base        
+perl-Compress-Raw-Zlib.x86_64           1:2.061-4.el7              @base        
+perl-Crypt-CBC.noarch                   2.33-2.el7                 @base        
+perl-Crypt-DES.x86_64                   2.05-20.el7                @base        
+perl-Crypt-OpenSSL-Bignum.x86_64        0.04-18.el7                @base        
+perl-Crypt-OpenSSL-RSA.x86_64           0.28-7.el7                 @base        
+perl-Crypt-OpenSSL-Random.x86_64        0.04-21.el7                @base        
+perl-Crypt-PasswdMD5.noarch             1.3-17.el7                 @base        
+perl-Crypt-SSLeay.x86_64                0.64-5.el7                 @base        
+perl-DBD-MySQL.x86_64                   4.023-6.el7                @base        
+perl-DBD-Pg.x86_64                      2.19.3-4.el7               @base        
+perl-DBD-Pg-tests.x86_64                2.19.3-4.el7               @base        
+perl-DBD-SQLite.x86_64                  1.39-3.el7                 @base        
+perl-DBI.x86_64                         1.627-4.el7                @base        
+perl-DBIx-Simple.noarch                 1.35-7.el7                 @base        
+perl-DB_File.x86_64                     1.830-6.el7                @base        
+perl-Data-Dumper.x86_64                 2.145-3.el7                @base        
+perl-Data-Peek.x86_64                   0.38-3.el7                 @base        
+perl-Digest.noarch                      1.17-245.el7               @base        
+perl-Digest-MD5.x86_64                  2.52-3.el7                 @base        
+perl-Digest-SHA.x86_64                  1:5.85-4.el7               @base        
+perl-Digest-SHA1.x86_64                 2.13-9.el7                 @base        
+perl-Encode.x86_64                      2.51-7.el7                 @base        
+perl-Encode-Locale.noarch               1.03-5.el7                 @base        
+perl-Error.noarch                       1:0.17020-2.el7            @base        
+perl-Exporter.noarch                    5.68-3.el7                 @base        
+perl-ExtUtils-CBuilder.noarch           1:0.28.2.6-295.el7         @base        
+perl-ExtUtils-Install.noarch            1.58-295.el7               @base        
+perl-ExtUtils-MakeMaker.noarch          6.68-3.el7                 @base        
+perl-ExtUtils-Manifest.noarch           1.61-244.el7               @base        
+perl-ExtUtils-ParseXS.noarch            1:3.18-3.el7               @base        
+perl-FCGI.x86_64                        1:0.74-8.el7               @base        
+perl-File-Listing.noarch                6.04-7.el7                 @base        
+perl-File-Path.noarch                   2.09-2.el7                 @base        
+perl-File-Temp.noarch                   0.23.01-3.el7              @base        
+perl-Filter.x86_64                      1.49-3.el7                 @base        
+perl-Font-AFM.noarch                    1.20-13.el7                @base        
+perl-FreezeThaw.noarch                  0.5001-10.el7              @base        
+perl-GD.x86_64                          2.49-3.el7                 @base        
+perl-GD-Barcode.noarch                  1.15-15.el7                @base        
+perl-Getopt-Long.noarch                 2.40-3.el7                 @base        
+perl-Git.noarch                         2.22.0-1.WANdisco.437      @WANdisco-git
+perl-HTML-Format.noarch                 2.10-7.el7                 @base        
+perl-HTML-Parser.x86_64                 3.71-4.el7                 @base        
+perl-HTML-Tagset.noarch                 3.20-15.el7                @base        
+perl-HTML-Tree.noarch                   1:5.03-2.el7               @base        
+perl-HTTP-Cookies.noarch                6.01-5.el7                 @base        
+perl-HTTP-Daemon.noarch                 6.01-8.el7                 @base        
+perl-HTTP-Date.noarch                   6.02-8.el7                 @base        
+perl-HTTP-Message.noarch                6.06-6.el7                 @base        
+perl-HTTP-Negotiate.noarch              6.01-5.el7                 @base        
+perl-HTTP-Tiny.noarch                   0.033-3.el7                @base        
+perl-IO-CaptureOutput.noarch            1.1102-9.el7               @base        
+perl-IO-Compress.noarch                 2.061-2.el7                @base        
+perl-IO-HTML.noarch                     1.00-2.el7                 @base        
+perl-IO-Socket-INET6.noarch             2.69-5.el7                 @base        
+perl-IO-Socket-IP.noarch                0.21-5.el7                 @base        
+perl-IO-Socket-SSL.noarch               1.94-7.el7                 @base        
+perl-IO-String.noarch                   1.08-19.el7                @base        
+perl-IO-Tty.x86_64                      1.10-11.el7                @base        
+perl-IO-Zlib.noarch                     1:1.10-295.el7             @base        
+perl-IO-stringy.noarch                  2.110-22.el7               @base        
+perl-IPC-Cmd.noarch                     1:0.80-4.el7               @base        
+perl-JSON-PP.noarch                     2.27202-2.el7              @base        
+perl-LWP-MediaTypes.noarch              6.02-2.el7                 @base        
+perl-Locale-Maketext.noarch             1.23-3.el7                 @base        
+perl-Locale-Maketext-Simple.noarch      1:0.21-295.el7             @base        
+perl-Module-Build.noarch                2:0.40.05-2.el7            @base        
+perl-Module-CoreList.noarch             1:2.76.02-295.el7          @base        
+perl-Module-Load.noarch                 1:0.24-3.el7               @base        
+perl-Module-Load-Conditional.noarch     0.54-3.el7                 @base        
+perl-Module-Metadata.noarch             1.000018-2.el7             @base        
+perl-Module-Signature.noarch            0.73-2.el7                 @base        
+perl-Mozilla-CA.noarch                  20130114-5.el7             @base        
+perl-Net-Daemon.noarch                  0.48-5.el7                 @base        
+perl-Net-HTTP.noarch                    6.06-2.el7                 @base        
+perl-Net-LibIDN.x86_64                  0.12-15.el7                @base        
+perl-Net-SSLeay.x86_64                  1.55-6.el7                 @base        
+perl-Object-Accessor.noarch             1:0.42-295.el7             @base        
+perl-PAR-Dist.noarch                    0.49-2.el7                 @base        
+perl-Params-Check.noarch                1:0.38-2.el7               @base        
+perl-Parse-CPAN-Meta.noarch             1:1.4404-5.el7             @base        
+perl-PathTools.x86_64                   3.40-5.el7                 @base        
+perl-Perl-OSType.noarch                 1.003-3.el7                @base        
+perl-PlRPC.noarch                       0.2020-14.el7              @base        
+perl-Pod-Escapes.noarch                 1:1.04-295.el7             @base        
+perl-Pod-Perldoc.noarch                 3.20-4.el7                 @base        
+perl-Pod-Simple.noarch                  1:3.28-4.el7               @base        
+perl-Pod-Usage.noarch                   1.63-3.el7                 @base        
+perl-Scalar-List-Utils.x86_64           1.27-248.el7               @base        
+perl-Socket.x86_64                      2.010-5.el7                @base        
+perl-Socket6.x86_64                     0.23-15.el7                @base        
+perl-Storable.x86_64                    2.45-3.el7                 @base        
+perl-TermReadKey.x86_64                 2.30-20.el7                @base        
+perl-Test-Harness.noarch                3.28-3.el7                 @base        
+perl-Test-Simple.noarch                 0.98-243.el7               @base        
+perl-Text-CSV_XS.x86_64                 1.00-3.el7                 @base        
+perl-Text-CharWidth.x86_64              0.04-18.el7                @base        
+perl-Text-Diff.noarch                   1.41-5.el7                 @base        
+perl-Text-Glob.noarch                   0.09-7.el7                 @base        
+perl-Text-Iconv.x86_64                  1.7-18.el7                 @base        
+perl-Text-ParseWords.noarch             3.29-4.el7                 @base        
+perl-Text-Soundex.x86_64                3.04-4.el7                 @base        
+perl-Text-Unidecode.noarch              0.04-20.el7                @base        
+perl-Text-WrapI18N.noarch               0.06-17.el7                @base        
+perl-Thread-Queue.noarch                3.02-2.el7                 @base        
+perl-Time-HiRes.x86_64                  4:1.9725-3.el7             @base        
+perl-Time-Local.noarch                  1.2300-2.el7               @base        
+perl-TimeDate.noarch                    1:2.30-2.el7               @base        
+perl-URI.noarch                         1.60-9.el7                 @base        
+perl-WWW-RobotRules.noarch              6.02-5.el7                 @base        
+perl-XML-Catalog.noarch                 1.0.1-1.el7                @base        
+perl-XML-DOM.noarch                     1.44-19.el7                @base        
+perl-XML-Dumper.noarch                  0.81-17.el7                @base        
+perl-XML-Filter-BufferText.noarch       1.01-17.el7                @base        
+perl-XML-Grove.noarch                   0.46alpha-52.el7           @base        
+perl-XML-Handler-YAWriter.noarch        0.23-18.el7                @base        
+perl-XML-LibXML.x86_64                  1:2.0018-5.el7             @base        
+perl-XML-LibXSLT.x86_64                 1.80-4.el7                 @base        
+perl-XML-NamespaceSupport.noarch        1.11-10.el7                @base        
+perl-XML-Parser.x86_64                  2.41-10.el7                @base        
+perl-XML-RegExp.noarch                  0.04-2.el7                 @base        
+perl-XML-SAX.noarch                     0.99-9.el7                 @base        
+perl-XML-SAX-Base.noarch                1.08-7.el7                 @base        
+perl-XML-SAX-Writer.noarch              0.53-4.el7                 @base        
+perl-XML-Simple.noarch                  2.20-5.el7                 @base        
+perl-XML-TokeParser.noarch              0.05-12.el7                @base        
+perl-XML-TreeBuilder.noarch             4.2-1.el7                  @base        
+perl-XML-Twig.noarch                    3.44-2.el7                 @base        
+perl-XML-Writer.noarch                  0.623-3.el7                @base        
+perl-XML-XPath.noarch                   1.13-22.el7                @base        
+perl-XML-XPathEngine.noarch             0.14-3.el7                 @base        
+perl-YAML.noarch                        0.84-5.el7                 @base        
+perl-YAML-Tiny.noarch                   1.51-6.el7                 @base        
+perl-constant.noarch                    1.27-2.el7                 @base        
+perl-devel.x86_64                       4:5.16.3-295.el7           @base        
+perl-libs.x86_64                        4:5.16.3-295.el7           @base        
+perl-libwww-perl.noarch                 6.05-2.el7                 @base        
+perl-libxml-perl.noarch                 0.08-19.el7                @base        
+perl-local-lib.noarch                   1.008010-4.el7             @base        
+perl-macros.x86_64                      4:5.16.3-295.el7           @base        
+perl-parent.noarch                      1:0.225-244.el7            @base        
+perl-podlators.noarch                   2.5.1-3.el7                @base        
+perl-srpm-macros.noarch                 1-8.el7                    @base        
+perl-threads.x86_64                     1.87-4.el7                 @base        
+perl-threads-shared.x86_64              1.43-6.el7                 @base        
+perl-version.x86_64                     3:0.99.07-6.el7            @base        
+php.x86_64                              7.2.33-1.el7.remi          @remi-php72  
+php-cli.x86_64                          7.2.33-1.el7.remi          @remi-php72  
+php-common.x86_64                       7.2.33-1.el7.remi          @remi-php72  
+php-fedora-autoloader.noarch            1.0.1-2.el7                @epel        
+php-gd.x86_64                           7.2.33-1.el7.remi          @remi-php72  
+php-intl.x86_64                         7.2.33-1.el7.remi          @remi-php72  
+php-json.x86_64                         7.2.33-1.el7.remi          @remi-php72  
+php-ldap.x86_64                         7.2.33-1.el7.remi          @remi-php72  
+php-mbstring.x86_64                     7.2.33-1.el7.remi          @remi-php72  
+php-mysqlnd.x86_64                      7.2.33-1.el7.remi          @remi-php72  
+php-odbc.x86_64                         7.2.33-1.el7.remi          @remi-php72  
+php-pdo.x86_64                          7.2.33-1.el7.remi          @remi-php72  
+php-pear.noarch                         1:1.10.12-1.el7.remi       @remi-php72  
+php-pecl-memcache.x86_64                4.0.5.2-1.el7.remi.7.2     @remi-php72  
+php-pgsql.x86_64                        7.2.33-1.el7.remi          @remi-php72  
+php-process.x86_64                      7.2.33-1.el7.remi          @remi-php72  
+php-soap.x86_64                         7.2.33-1.el7.remi          @remi-php72  
+php-xml.x86_64                          7.2.33-1.el7.remi          @remi-php72  
+pinentry.x86_64                         0.8.1-17.el7               @anaconda    
+pixman.x86_64                           0.34.0-1.el7               @base        
+pkgconfig.x86_64                        1:0.27.1-4.el7             @anaconda    
+plymouth.x86_64                         0.8.9-0.33.20140113.el7.centos
+                                                                   @base        
+plymouth-core-libs.x86_64               0.8.9-0.33.20140113.el7.centos
+                                                                   @base        
+plymouth-scripts.x86_64                 0.8.9-0.33.20140113.el7.centos
+                                                                   @base        
+policycoreutils.x86_64                  2.5-34.el7                 @base        
+polkit.x86_64                           0.112-26.el7               @base        
+polkit-pkla-compat.x86_64               0.1-4.el7                  @anaconda    
+poppler.x86_64                          0.26.5-42.el7              @base        
+poppler-data.noarch                     0.4.6-3.el7                @base        
+poppler-glib.x86_64                     0.26.5-42.el7              @base        
+popt.x86_64                             1.13-16.el7                @anaconda    
+portaudio.x86_64                        19-16.el7                  @epel        
+postfix.x86_64                          2:2.10.1-9.el7             @base        
+postgresql.x86_64                       9.2.24-4.el7_8             @updates     
+postgresql-libs.x86_64                  9.2.24-4.el7_8             @updates     
+postgresql-server.x86_64                9.2.24-4.el7_8             @updates     
+procps-ng.x86_64                        3.3.10-27.el7              @base        
+psmisc.x86_64                           22.20-16.el7               @base        
+pth.x86_64                              2.0.7-23.el7               @anaconda    
+pycairo.x86_64                          1.8.10-8.el7               @base        
+pygpgme.x86_64                          0.3-9.el7                  @anaconda    
+pyliblzma.x86_64                        0.5.3-11.el7               @anaconda    
+pyparsing.noarch                        1.5.6-9.el7                @base        
+python.x86_64                           2.7.5-88.el7               @base        
+python-backports.x86_64                 1.0-8.el7                  @base        
+python-backports-ssl_match_hostname.noarch
+                                        3.5.0.1-1.el7              @base        
+python-beautifulsoup4.noarch            4.4.1-1.el7                @epel        
+python-cffi.x86_64                      1.6.0-5.el7                @base        
+python-chardet.noarch                   2.2.1-3.el7                @base        
+python-configobj.noarch                 4.7.2-7.el7                @anaconda    
+python-decorator.noarch                 3.4.0-3.el7                @anaconda    
+python-devel.x86_64                     2.7.5-88.el7               @base        
+python-enum34.noarch                    1.0.4-1.el7                @base        
+python-firewall.noarch                  0.6.3-8.el7_8.1            @updates     
+python-gobject.x86_64                   3.22.0-1.el7_4.1           @updates     
+python-gobject-base.x86_64              3.22.0-1.el7_4.1           @updates     
+python-html5lib.noarch                  1:0.999-7.el7              @epel        
+python-idna.noarch                      2.4-1.el7                  @base        
+python-iniparse.noarch                  0.4-9.el7                  @anaconda    
+python-ipaddress.noarch                 1.0.16-2.el7               @base        
+python-javapackages.noarch              3.4.1-11.el7               @base        
+python-kitchen.noarch                   1.1.1-5.el7                @base        
+python-libs.x86_64                      2.7.5-88.el7               @base        
+python-linux-procfs.noarch              0.4.11-4.el7               @base        
+python-lxml.x86_64                      3.2.1-4.el7                @base        
+python-nose.noarch                      1.3.7-1.el7                @base        
+python-paramiko.noarch                  2.1.1-9.el7                @base        
+python-perf.x86_64                      3.10.0-1127.18.2.el7       @updates     
+python-pillow.x86_64                    2.0.0-20.gitd1c6db8.el7_7  @updates     
+python-ply.noarch                       3.4-11.el7                 @base        
+python-pycparser.noarch                 2.14-1.el7                 @base        
+python-pycurl.x86_64                    7.19.0-19.el7              @anaconda    
+python-pyudev.noarch                    0.15-9.el7                 @anaconda    
+python-requests.noarch                  2.6.0-9.el7_8              @updates     
+python-rpm-macros.noarch                3-32.el7                   @base        
+python-schedutils.x86_64                0.4-6.el7                  @anaconda    
+python-setuptools.noarch                0.9.8-7.el7                @base        
+python-six.noarch                       1.9.0-2.el7                @base        
+python-slip.noarch                      0.4.0-4.el7                @base        
+python-slip-dbus.noarch                 0.4.0-4.el7                @base        
+python-srpm-macros.noarch               3-32.el7                   @base        
+python-urlgrabber.noarch                3.10-10.el7                @base        
+python-urllib3.noarch                   1.10.2-7.el7               @base        
+python2-crypto.x86_64                   2.6.1-16.el7               @epel        
+python2-cryptography.x86_64             1.7.2-2.el7                @base        
+python2-pip.noarch                      8.1.2-12.el7               @epel        
+python2-pyasn1.noarch                   0.1.9-7.el7                @base        
+python2-rpm-macros.noarch               3-32.el7                   @base        
+python3.x86_64                          3.6.8-13.el7               @base        
+python3-libs.x86_64                     3.6.8-13.el7               @base        
+python3-pip.noarch                      9.0.3-7.el7_7              @updates     
+python3-setuptools.noarch               39.2.0-10.el7              @base        
+pyxattr.x86_64                          0.5.1-5.el7                @anaconda    
+qrencode-libs.x86_64                    3.4.1-3.el7                @anaconda    
+quota.x86_64                            1:4.01-19.el7              @base        
+quota-nls.noarch                        1:4.01-19.el7              @base        
+rcs.x86_64                              5.9.0-7.el7                @base        
+readline.x86_64                         6.2-11.el7                 @base        
+readline-devel.x86_64                   6.2-11.el7                 @base        
+redhat-rpm-config.noarch                9.1.0-88.el7.centos        @base        
+remi-release.noarch                     7.7-2.el7.remi             @remi-safe   
+rest.x86_64                             0.8.1-2.el7                @base        
+rootfiles.noarch                        8.1-11.el7                 @anaconda    
+rpcbind.x86_64                          0.2.0-49.el7               @base        
+rpm.x86_64                              4.11.3-43.el7              @base        
+rpm-build.x86_64                        4.11.3-43.el7              @base        
+rpm-build-libs.x86_64                   4.11.3-43.el7              @base        
+rpm-libs.x86_64                         4.11.3-43.el7              @base        
+rpm-python.x86_64                       4.11.3-43.el7              @base        
+rpm-sign.x86_64                         4.11.3-43.el7              @base        
+rsync.x86_64                            3.1.2-10.el7               @base        
+rsyslog.x86_64                          8.24.0-52.el7_8.2          @updates     
+ruby.x86_64                             2.0.0.648-36.el7           @base        
+ruby-irb.noarch                         2.0.0.648-36.el7           @base        
+ruby-libs.x86_64                        2.0.0.648-36.el7           @base        
+rubygem-bigdecimal.x86_64               1.2.0-36.el7               @base        
+rubygem-io-console.x86_64               0.4.2-36.el7               @base        
+rubygem-json.x86_64                     1.7.7-36.el7               @base        
+rubygem-psych.x86_64                    2.0.0-36.el7               @base        
+rubygem-rdoc.noarch                     4.0.0-36.el7               @base        
+rubygems.noarch                         2.0.14.1-36.el7            @base        
+sbcl.x86_64                             1.4.0-1.el7                @epel        
+screen.x86_64                           4.1.0-0.25.20120314git3c2946.el7
+                                                                   @base        
+sed.x86_64                              4.2.2-6.el7                @base        
+selinux-policy.noarch                   3.13.1-266.el7_8.1         @updates     
+selinux-policy-targeted.noarch          3.13.1-266.el7_8.1         @updates     
+setup.noarch                            2.8.71-11.el7              @base        
+shadow-utils.x86_64                     2:4.6-5.el7                @base        
+shared-mime-info.x86_64                 1.8-5.el7                  @base        
+shim-x64.x86_64                         15-8.el7                   @updates     
+slang.x86_64                            2.2.4-11.el7               @anaconda    
+snappy.x86_64                           1.1.0-3.el7                @anaconda    
+soundtouch.x86_64                       1.4.0-9.el7                @base        
+soxr.x86_64                             0.1.2-1.el7                @epel        
+sqlite.x86_64                           3.7.17-8.el7_7.1           @updates     
+sqlite-devel.x86_64                     3.7.17-8.el7_7.1           @updates     
+stix-fonts.noarch                       1.1.0-5.el7                @base        
+strace.x86_64                           4.24-4.el7                 @base        
+subversion.x86_64                       1.7.14-14.el7              @base        
+subversion-libs.x86_64                  1.7.14-14.el7              @base        
+sudo.x86_64                             1.8.23-9.el7               @base        
+swig.x86_64                             2.0.10-5.el7               @base        
+systemd.x86_64                          219-73.el7_8.9             @updates     
+systemd-libs.x86_64                     219-73.el7_8.9             @updates     
+systemd-python.x86_64                   219-73.el7_8.9             @updates     
+systemd-sysv.x86_64                     219-73.el7_8.9             @updates     
+systemtap.x86_64                        4.0-11.el7                 @base        
+systemtap-client.x86_64                 4.0-11.el7                 @base        
+systemtap-devel.x86_64                  4.0-11.el7                 @base        
+systemtap-runtime.x86_64                4.0-11.el7                 @base        
+systemtap-sdt-devel.x86_64              4.0-11.el7                 @base        
+sysvinit-tools.x86_64                   2.88-14.dsf.el7            @anaconda    
+t1lib.x86_64                            5.1.2-14.el7               @base        
+tar.x86_64                              2:1.26-35.el7              @base        
+tcl.x86_64                              1:8.5.13-8.el7             @base        
+tcl-devel.x86_64                        1:8.5.13-8.el7             @base        
+tcp_wrappers.x86_64                     7.6-77.el7                 @base        
+tcp_wrappers-libs.x86_64                7.6-77.el7                 @anaconda    
+teamd.x86_64                            1.29-1.el7                 @base        
+telnet.x86_64                           1:0.17-65.el7_8            @updates     
+time.x86_64                             1.7-45.el7                 @base        
+tk.x86_64                               1:8.5.13-6.el7             @base        
+tk-devel.x86_64                         1:8.5.13-6.el7             @base        
+tmux.x86_64                             1.8-4.el7                  @base        
+traceroute.x86_64                       3:2.0.22-2.el7             @base        
+tree.x86_64                             1.6.0-10.el7               @base        
+trousers.x86_64                         0.3.14-2.el7               @base        
+ttmkfdir.x86_64                         3.0.9-42.el7               @base        
+tuned.noarch                            2.11.0-8.el7               @base        
+twolame-libs.x86_64                     0.3.13-12.el7              @epel        
+tzdata.noarch                           2020a-1.el7                @updates     
+tzdata-java.noarch                      2020a-1.el7                @updates     
+udisks2.x86_64                          2.8.4-1.el7                @base        
+unixODBC.x86_64                         2.3.1-14.el7               @base        
+unzip.x86_64                            6.0-21.el7                 @base        
+urw-base35-bookman-fonts.noarch         20170801-10.el7            @base        
+urw-base35-c059-fonts.noarch            20170801-10.el7            @base        
+urw-base35-d050000l-fonts.noarch        20170801-10.el7            @base        
+urw-base35-fonts.noarch                 20170801-10.el7            @base        
+urw-base35-fonts-common.noarch          20170801-10.el7            @base        
+urw-base35-gothic-fonts.noarch          20170801-10.el7            @base        
+urw-base35-nimbus-mono-ps-fonts.noarch  20170801-10.el7            @base        
+urw-base35-nimbus-roman-fonts.noarch    20170801-10.el7            @base        
+urw-base35-nimbus-sans-fonts.noarch     20170801-10.el7            @base        
+urw-base35-p052-fonts.noarch            20170801-10.el7            @base        
+urw-base35-standard-symbols-ps-fonts.noarch
+                                        20170801-10.el7            @base        
+urw-base35-z003-fonts.noarch            20170801-10.el7            @base        
+ustr.x86_64                             1.0.4-16.el7               @anaconda    
+util-linux.x86_64                       2.23.2-63.el7              @base        
+valgrind.x86_64                         1:3.15.0-11.el7            @base        
+vamp-plugin-sdk.x86_64                  2.5-4.el7                  @epel        
+vim-X11.x86_64                          2:7.4.629-6.el7            @base        
+vim-common.x86_64                       2:7.4.629-6.el7            @base        
+vim-enhanced.x86_64                     2:7.4.629-6.el7            @base        
+vim-filesystem.x86_64                   2:7.4.629-6.el7            @base        
+vim-minimal.x86_64                      2:7.4.629-6.el7            @base        
+virt-what.x86_64                        1.18-4.el7                 @base        
+volume_key-libs.x86_64                  0.3.9-9.el7                @base        
+vte-profile.x86_64                      0.52.2-2.el7               @base        
+vte291.x86_64                           0.52.2-2.el7               @base        
+vte3.x86_64                             0.36.5-1.el7               @base        
+wandisco-git-release.noarch             7-2                        @/wandisco-git-release-7-2.noarch
+wavpack.x86_64                          4.60.1-9.el7               @base        
+webkitgtk4.x86_64                       2.22.7-2.el7               @base        
+webkitgtk4-jsc.x86_64                   2.22.7-2.el7               @base        
+webkitgtk4-plugin-process-gtk2.x86_64   2.22.7-2.el7               @base        
+wget.x86_64                             1.14-18.el7_6.1            @updates     
+which.x86_64                            2.20-7.el7                 @anaconda    
+whois.x86_64                            5.1.1-2.el7                @base        
+wireshark.x86_64                        1.10.14-24.el7             @base        
+words.noarch                            3.0-22.el7                 @base        
+wpa_supplicant.x86_64                   1:2.6-12.el7               @base        
+wxBase.x86_64                           2.8.12-20.el7              @epel        
+wxBase3.x86_64                          3.0.4-1.el7                @epel        
+wxGTK.x86_64                            2.8.12-20.el7              @epel        
+wxGTK3.x86_64                           3.0.4-1.el7                @epel        
+wxGTK3-webview.x86_64                   3.0.4-1.el7                @epel        
+xalan-j2.noarch                         2.7.1-23.el7               @base        
+xedit.x86_64                            1.2.2-1.el7                @epel        
+xerces-j2.noarch                        2.11.0-17.el7_0            @base        
+xfsprogs.x86_64                         4.5.0-20.el7               @base        
+xkeyboard-config.noarch                 2.24-1.el7                 @base        
+xml-common.noarch                       0.6.3-39.el7               @base        
+xml-commons-apis.noarch                 1.4.01-16.el7              @base        
+xml-commons-resolver.noarch             1.2-15.el7                 @base        
+xorg-x11-apps.x86_64                    7.7-7.el7                  @base        
+xorg-x11-font-utils.x86_64              1:7.5-21.el7               @base        
+xorg-x11-fonts-100dpi.noarch            7.5-9.el7                  @base        
+xorg-x11-fonts-75dpi.noarch             7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-1-100dpi.noarch  7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-1-75dpi.noarch   7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-14-100dpi.noarch 7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-14-75dpi.noarch  7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-15-100dpi.noarch 7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-15-75dpi.noarch  7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-2-100dpi.noarch  7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-2-75dpi.noarch   7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-9-100dpi.noarch  7.5-9.el7                  @base        
+xorg-x11-fonts-ISO8859-9-75dpi.noarch   7.5-9.el7                  @base        
+xorg-x11-fonts-Type1.noarch             7.5-9.el7                  @base        
+xorg-x11-fonts-cyrillic.noarch          7.5-9.el7                  @base        
+xorg-x11-fonts-ethiopic.noarch          7.5-9.el7                  @base        
+xorg-x11-fonts-misc.noarch              7.5-9.el7                  @base        
+xorg-x11-proto-devel.noarch             2018.4-1.el7               @base        
+xorg-x11-server-utils.x86_64            7.7-20.el7                 @base        
+xorg-x11-utils.x86_64                   7.5-23.el7                 @base        
+xorg-x11-xauth.x86_64                   1:1.0.9-1.el7              @base        
+xorg-x11-xbitmaps.noarch                1.1.1-6.el7                @base        
+xorg-x11-xinit.x86_64                   1.3.4-2.el7                @base        
+xterm.x86_64                            295-3.el7                  @base        
+xz.x86_64                               5.2.2-1.el7                @anaconda    
+xz-devel.x86_64                         5.2.2-1.el7                @base        
+xz-libs.x86_64                          5.2.2-1.el7                @anaconda    
+yp-tools.x86_64                         2.14-5.el7                 @base        
+ypbind.x86_64                           3:1.37.1-9.el7             @base        
+yum.noarch                              3.4.3-167.el7.centos       @base        
+yum-metadata-parser.x86_64              1.1.4-10.el7               @anaconda    
+yum-plugin-fastestmirror.noarch         1.1.31-54.el7_8            @updates     
+yum-utils.noarch                        1.1.31-54.el7_8            @updates     
+zenity.x86_64                           3.28.1-1.el7               @base        
+zip.x86_64                              3.0-11.el7                 @base        
+zlib.x86_64                             1.2.7-18.el7               @base        
+zlib-devel.x86_64                       1.2.7-18.el7               @base        
+
+[1;31m Local Dns Resolver Server: [0m
+nameserver 10.102.20.20
+nameserver 10.101.20.20
+nameserver 10.101.100.41
+[1;31m List of Active Shells Users: [0m           system boot  2020-09-24 03:27
+           run-level 3  2020-09-24 03:27
+LOGIN      tty1         2020-09-24 03:27               968 id=tty1
+ban4     + pts/0        2020-09-24 16:46 01:26      204730 (10.29.44.216)
+xpan31   + pts/1        2020-09-24 17:47 00:55      222309 (10.29.24.240)
+mikhan23 + pts/2        2020-09-24 15:57 02:44      179418 (10.29.14.93)
+sahmed-susmita + pts/3        2020-09-24 18:21 00:05      230934 (10.29.25.177)
+dtnguyen28 + pts/4        2020-09-24 17:01 01:41      210223 (10.29.52.164)
+rkhakpour + pts/5        2020-09-24 16:51 01:28      206407 (10.29.27.126)
+hsun60   + pts/6        2020-09-24 18:29 00:01      232737 (10.29.54.41)
+wlin87   + pts/7        2020-09-24 16:18 02:24      194968 (10.29.50.152)
+yweng14  + pts/8        2020-09-24 18:43   .        236347 (10.29.6.64)
+           pts/9        2020-09-24 18:41            234232 id=ts/9  term=0 exit=0
+nyohannes-ghebremesk + pts/10       2020-09-24 16:18 00:05      195076 (10.29.15.106)
+enaypek  + pts/11       2020-09-24 17:52   .        223333 (10.29.34.92)
+           pts/12       2020-09-24 18:39            235308 id=s/12  term=0 exit=0
+bramcharan1 + pts/13       2020-09-24 18:05 00:02      225961 (10.29.28.12)
+iha1     + pts/14       2020-09-24 17:19 01:14      216538 (10.29.3.69)
+           pts/15       2020-09-24 18:14            219450 id=s/15  term=0 exit=0
+           pts/16       2020-09-24 18:13            228351 id=s/16  term=0 exit=0
+           pts/17       2020-09-24 18:36            227974 id=s/17  term=0 exit=0
+           pts/18       2020-09-24 18:05            225832 id=s/18  term=0 exit=0
+enawabi2 + pts/19       2020-09-24 15:35   .        165456 (10.29.45.121)
+           pts/20       2020-09-24 15:44            163993 id=s/20  term=0 exit=0
+           pts/21       2020-09-24 15:43            169880 id=s/21  term=0 exit=0
+           pts/22       2020-09-24 14:26            118709 id=s/22  term=0 exit=0
+           pts/23       2020-09-24 15:07            135701 id=s/23  term=0 exit=0
+           pts/24       2020-09-24 15:13            122037 id=s/24  term=0 exit=0
+           pts/25       2020-09-24 14:19            136521 id=s/25  term=0 exit=0
+
+[1;31m OS Installation Date: [0mFri 01 May 2020 01:05:53 PM EDT
+[1;31m Hardware Details: [0m
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                1
+On-line CPU(s) list:   0
+Thread(s) per core:    1
+Core(s) per socket:    1
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+Stepping:              2
+CPU MHz:               2397.221
+BogoMIPS:              4794.44
+Hypervisor vendor:     Microsoft
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              20480K
+NUMA node0 CPU(s):     0
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx lm constant_tsc rep_good nopl eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm fsgsbase bmi1 avx2 smep bmi2 erms xsaveopt
+[1;31m Running Services: [0m
+auditd.service                     loaded active running Security Auditing Service
+crond.service                      loaded active running Command Scheduler
+dbus.service                       loaded active running D-Bus System Message Bus
+ds_agent.service                   loaded active running Trend Micro Deep Security Agent
+fail2ban.service                   loaded active running Fail2Ban Service
+getty@tty1.service                 loaded active running Getty on tty1
+gssproxy.service                   loaded active running GSSAPI Proxy Daemon
+httpd.service                      loaded active running The Apache HTTP Server
+lvm2-lvmetad.service               loaded active running LVM2 metadata daemon
+NetworkManager.service             loaded active running Network Manager
+nslcd.service                      loaded active running Naming services LDAP client daemon.
+ntpd.service                       loaded active running Network Time Service
+polkit.service                     loaded active running Authorization Manager
+postfix.service                    loaded active running Postfix Mail Transport Agent
+rpc-rquotad.service                loaded active running Remote quota server
+rpcbind.service                    loaded active running RPC bind service
+rsyslog.service                    loaded active running System Logging Service
+snmpd.service                      loaded active running Simple Network Management Protocol (SNMP) Daemon.
+sshd.service                       loaded active running OpenSSH server daemon
+systemd-journald.service           loaded active running Journal Service
+systemd-logind.service             loaded active running Login Service
+systemd-udevd.service              loaded active running udev Kernel Device Manager
+tuned.service                      loaded active running Dynamic System Tuning Daemon
+ypbind.service                     loaded active running NIS/YP (Network Information Service) Clients to NIS Domain Binder
+
+[1;31m Not Running Services: [0m
+arptables.service                  loaded active exited  Automates a packet filtering firewall with arptables
+blk-availability.service           loaded active exited  Availability of block devices
+iptables.service                   loaded active exited  IPv4 firewall with iptables
+kdump.service                      loaded active exited  Crash recovery kernel arming
+kmod-static-nodes.service          loaded active exited  Create list of required static device nodes for the current kernel
+lvm2-monitor.service               loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+lvm2-pvscan@8:3.service            loaded active exited  LVM2 PV scan on device 8:3
+NetworkManager-wait-online.service loaded active exited  Network Manager Wait Online
+rc-local.service                   loaded active exited  /etc/rc.d/rc.local Compatibility
+rhel-dmesg.service                 loaded active exited  Dump dmesg to /var/log/dmesg
+rhel-domainname.service            loaded active exited  Read and set NIS domainname from /etc/sysconfig/network
+rhel-import-state.service          loaded active exited  Import network configuration from initramfs
+rhel-readonly.service              loaded active exited  Configure read-only root support
+scvmmguestagent.service            loaded active exited  LSB: Microsoft VMM Agent
+systemd-binfmt.service             loaded active exited  Set Up Additional Binary Formats
+systemd-journal-flush.service      loaded active exited  Flush Journal to Persistent Storage
+systemd-random-seed.service        loaded active exited  Load/Save Random Seed
+systemd-remount-fs.service         loaded active exited  Remount Root and Kernel File Systems
+systemd-sysctl.service             loaded active exited  Apply Kernel Variables
+systemd-tmpfiles-setup-dev.service loaded active exited  Create Static Device Nodes in /dev
+systemd-tmpfiles-setup.service     loaded active exited  Create Volatile Files and Directories
+systemd-udev-trigger.service       loaded active exited  udev Coldplug all Devices
+systemd-update-utmp.service        loaded active exited  Update UTMP about System Boot/Shutdown
+systemd-user-sessions.service      loaded active exited  Permit User Sessions
+systemd-vconsole-setup.service     loaded active exited  Setup Virtual Console
+
+[1;31m OS Users: [0m
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+systemd-network
+dbus
+polkitd
+postfix
+chrony
+sshd
+rizwan
+ntp
+mehrdad
+alex
+olga
+rpc
+rpcuser
+nfsnobody
+nscd
+nslcd
+tss
+postgres
+apache
+admin
+oprofile
+dictd
+geoclue
+

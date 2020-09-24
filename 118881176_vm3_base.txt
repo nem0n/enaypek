@@ -1,0 +1,712 @@
+[1;31m Hostname: [0mlocalhost.localdomain
+[1;31m Disk Informations: [0m
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             896M     0  896M   0% /dev
+tmpfs                914M     0  914M   0% /dev/shm
+tmpfs                914M   97M  817M  11% /run
+tmpfs                914M     0  914M   0% /sys/fs/cgroup
+/dev/mapper/cl-root   17G  1.6G   16G  10% /
+/dev/sda1            976M  142M  767M  16% /boot
+tmpfs                183M     0  183M   0% /run/user/1000
+[1;31m Network Devices: [0mens192
+ens224
+lo
+
+[1;31m Ip Address: [0m172.16.3.3
+[1;31m Broadcast: [0m172.16.255.255
+[1;31m Netmask: [0m16
+
+[1;31m OS Kernel Version: [0mLinux 4.18.0-193.el8.x86_64 x86_64
+[1;31m OS Version: [0mVERSION="8 (Core)"
+[1;31m Selinux is ENABLED: [0m
+[1;31m Firewall Configs: [0m
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+[1;31m Active Repositories: [0m
+repo id                            repo name
+AppStream                          CentOS-8 - AppStream
+BaseOS                             CentOS-8 - Base
+extras                             CentOS-8 - Extras
+[1;31m Number of Installed Packages: [0m
+568
+
+[1;31m Name of Installed Packages: [0m
+Installed Packages
+NetworkManager.x86_64                1:1.22.8-4.el8                        @anaconda 
+NetworkManager-libnm.x86_64          1:1.22.8-4.el8                        @anaconda 
+NetworkManager-team.x86_64           1:1.22.8-4.el8                        @anaconda 
+NetworkManager-tui.x86_64            1:1.22.8-4.el8                        @anaconda 
+acl.x86_64                           2.2.53-1.el8                          @anaconda 
+audit.x86_64                         3.0-0.17.20191104git1c2f876.el8       @anaconda 
+audit-libs.x86_64                    3.0-0.17.20191104git1c2f876.el8       @anaconda 
+authselect.x86_64                    1.1-2.el8                             @anaconda 
+authselect-libs.x86_64               1.1-2.el8                             @anaconda 
+basesystem.noarch                    11-5.el8                              @anaconda 
+bash.x86_64                          4.4.19-10.el8                         @anaconda 
+bind-export-libs.x86_64              32:9.11.13-3.el8                      @anaconda 
+biosdevname.x86_64                   0.7.3-2.el8                           @anaconda 
+brotli.x86_64                        1.0.6-1.el8                           @anaconda 
+bzip2-libs.x86_64                    1.0.6-26.el8                          @anaconda 
+c-ares.x86_64                        1.13.0-5.el8                          @anaconda 
+ca-certificates.noarch               2019.2.32-80.0.el8_1                  @anaconda 
+centos-gpg-keys.noarch               8.2-2.2004.0.1.el8                    @anaconda 
+centos-release.x86_64                8.2-2.2004.0.1.el8                    @anaconda 
+centos-repos.x86_64                  8.2-2.2004.0.1.el8                    @anaconda 
+chkconfig.x86_64                     1.11-1.el8                            @anaconda 
+coreutils.x86_64                     8.30-6.el8_1.1                        @anaconda 
+coreutils-common.x86_64              8.30-6.el8_1.1                        @anaconda 
+cpio.x86_64                          2.12-8.el8                            @anaconda 
+cracklib.x86_64                      2.9.6-15.el8                          @anaconda 
+cracklib-dicts.x86_64                2.9.6-15.el8                          @anaconda 
+cronie.x86_64                        1.5.2-4.el8                           @anaconda 
+cronie-anacron.x86_64                1.5.2-4.el8                           @anaconda 
+crontabs.noarch                      1.11-16.20150630git.el8               @anaconda 
+crypto-policies.noarch               20191128-2.git23e1bf1.el8             @anaconda 
+cryptsetup-libs.x86_64               2.2.2-1.el8                           @anaconda 
+curl.x86_64                          7.61.1-12.el8                         @anaconda 
+cyrus-sasl-lib.x86_64                2.1.27-1.el8                          @anaconda 
+dbus.x86_64                          1:1.12.8-9.el8                        @anaconda 
+dbus-common.noarch                   1:1.12.8-9.el8                        @anaconda 
+dbus-daemon.x86_64                   1:1.12.8-9.el8                        @anaconda 
+dbus-glib.x86_64                     0.110-2.el8                           @anaconda 
+dbus-libs.x86_64                     1:1.12.8-9.el8                        @anaconda 
+dbus-tools.x86_64                    1:1.12.8-9.el8                        @anaconda 
+device-mapper.x86_64                 8:1.02.169-3.el8                      @anaconda 
+device-mapper-event.x86_64           8:1.02.169-3.el8                      @anaconda 
+device-mapper-event-libs.x86_64      8:1.02.169-3.el8                      @anaconda 
+device-mapper-libs.x86_64            8:1.02.169-3.el8                      @anaconda 
+device-mapper-persistent-data.x86_64 0.8.5-3.el8                           @anaconda 
+dhcp-client.x86_64                   12:4.3.6-40.el8                       @anaconda 
+dhcp-common.noarch                   12:4.3.6-40.el8                       @anaconda 
+dhcp-libs.x86_64                     12:4.3.6-40.el8                       @anaconda 
+diffutils.x86_64                     3.6-6.el8                             @anaconda 
+dmidecode.x86_64                     1:3.2-5.el8                           @anaconda 
+dnf.noarch                           4.2.17-6.el8                          @anaconda 
+dnf-data.noarch                      4.2.17-6.el8                          @anaconda 
+dnf-plugin-spacewalk.noarch          2.8.5-11.module_el8.1.0+211+ad6c0bc7  @AppStream
+dnf-plugins-core.noarch              4.0.12-3.el8                          @anaconda 
+dracut.x86_64                        049-70.git20200228.el8                @anaconda 
+dracut-config-rescue.x86_64          049-70.git20200228.el8                @anaconda 
+dracut-network.x86_64                049-70.git20200228.el8                @anaconda 
+dracut-squash.x86_64                 049-70.git20200228.el8                @anaconda 
+dwz.x86_64                           0.12-9.el8                            @AppStream
+e2fsprogs.x86_64                     1.45.4-3.el8                          @anaconda 
+e2fsprogs-libs.x86_64                1.45.4-3.el8                          @anaconda 
+efi-srpm-macros.noarch               3-2.el8                               @AppStream
+elfutils-debuginfod-client.x86_64    0.178-7.el8                           @AppStream
+elfutils-default-yama-scope.noarch   0.178-7.el8                           @anaconda 
+elfutils-libelf.x86_64               0.178-7.el8                           @anaconda 
+elfutils-libs.x86_64                 0.178-7.el8                           @anaconda 
+emacs-filesystem.noarch              1:26.1-5.el8                          @BaseOS   
+ethtool.x86_64                       2:5.0-2.el8                           @anaconda 
+expat.x86_64                         2.2.5-3.el8                           @anaconda 
+file.x86_64                          5.33-13.el8                           @anaconda 
+file-libs.x86_64                     5.33-13.el8                           @anaconda 
+filesystem.x86_64                    3.8-2.el8                             @anaconda 
+findutils.x86_64                     1:4.6.0-20.el8                        @anaconda 
+fipscheck.x86_64                     1.5.0-4.el8                           @anaconda 
+fipscheck-lib.x86_64                 1.5.0-4.el8                           @anaconda 
+firewalld.noarch                     0.8.0-4.el8                           @anaconda 
+firewalld-filesystem.noarch          0.8.0-4.el8                           @anaconda 
+freetype.x86_64                      2.9.1-4.el8                           @anaconda 
+fuse.x86_64                          2.9.7-12.el8                          @anaconda 
+fuse-common.x86_64                   3.2.1-12.el8                          @anaconda 
+fuse-libs.x86_64                     2.9.7-12.el8                          @anaconda 
+gawk.x86_64                          4.2.1-1.el8                           @anaconda 
+gdbm.x86_64                          1:1.18-1.el8                          @anaconda 
+gdbm-libs.x86_64                     1:1.18-1.el8                          @anaconda 
+geolite2-city.noarch                 20180605-1.el8                        @AppStream
+geolite2-country.noarch              20180605-1.el8                        @AppStream
+gettext.x86_64                       0.19.8.1-17.el8                       @anaconda 
+gettext-libs.x86_64                  0.19.8.1-17.el8                       @anaconda 
+ghc-srpm-macros.noarch               1.4.2-7.el8                           @AppStream
+git.x86_64                           2.18.4-2.el8_2                        @AppStream
+git-core.x86_64                      2.18.4-2.el8_2                        @AppStream
+git-core-doc.noarch                  2.18.4-2.el8_2                        @AppStream
+glib2.x86_64                         2.56.4-8.el8                          @anaconda 
+glibc.x86_64                         2.28-101.el8                          @anaconda 
+glibc-common.x86_64                  2.28-101.el8                          @anaconda 
+glibc-langpack-en.x86_64             2.28-101.el8                          @anaconda 
+gmp.x86_64                           1:6.1.2-10.el8                        @anaconda 
+gnupg2.x86_64                        2.2.9-1.el8                           @anaconda 
+gnupg2-smime.x86_64                  2.2.9-1.el8                           @anaconda 
+gnutls.x86_64                        3.6.8-9.el8                           @anaconda 
+go-srpm-macros.noarch                2-16.el8                              @AppStream
+gobject-introspection.x86_64         1.56.1-1.el8                          @anaconda 
+gpgme.x86_64                         1.10.0-6.el8.0.1                      @anaconda 
+grep.x86_64                          3.1-6.el8                             @anaconda 
+groff-base.x86_64                    1.22.3-18.el8                         @anaconda 
+grub2-common.noarch                  1:2.02-81.el8                         @anaconda 
+grub2-pc.x86_64                      1:2.02-81.el8                         @anaconda 
+grub2-pc-modules.noarch              1:2.02-81.el8                         @anaconda 
+grub2-tools.x86_64                   1:2.02-81.el8                         @anaconda 
+grub2-tools-extra.x86_64             1:2.02-81.el8                         @anaconda 
+grub2-tools-minimal.x86_64           1:2.02-81.el8                         @anaconda 
+grubby.x86_64                        8.40-38.el8                           @anaconda 
+gzip.x86_64                          1.9-9.el8                             @anaconda 
+hardlink.x86_64                      1:1.3-6.el8                           @anaconda 
+hdparm.x86_64                        9.54-2.el8                            @anaconda 
+hostname.x86_64                      3.20-6.el8                            @anaconda 
+hwdata.noarch                        0.314-8.4.el8                         @anaconda 
+ima-evm-utils.x86_64                 1.1-5.el8                             @anaconda 
+info.x86_64                          6.5-6.el8                             @anaconda 
+initscripts.x86_64                   10.00.6-1.el8                         @anaconda 
+ipcalc.x86_64                        0.2.4-4.el8                           @anaconda 
+iproute.x86_64                       5.3.0-1.el8                           @anaconda 
+iprutils.x86_64                      2.4.18.1-1.el8                        @anaconda 
+ipset.x86_64                         7.1-1.el8                             @anaconda 
+ipset-libs.x86_64                    7.1-1.el8                             @anaconda 
+iptables.x86_64                      1.8.4-10.el8                          @anaconda 
+iptables-ebtables.x86_64             1.8.4-10.el8                          @anaconda 
+iptables-libs.x86_64                 1.8.4-10.el8                          @anaconda 
+iputils.x86_64                       20180629-2.el8                        @anaconda 
+irqbalance.x86_64                    2:1.4.0-4.el8                         @anaconda 
+iwl100-firmware.noarch               39.31.5.1-97.el8.1                    @anaconda 
+iwl1000-firmware.noarch              1:39.31.5.1-97.el8.1                  @anaconda 
+iwl105-firmware.noarch               18.168.6.1-97.el8.1                   @anaconda 
+iwl135-firmware.noarch               18.168.6.1-97.el8.1                   @anaconda 
+iwl2000-firmware.noarch              18.168.6.1-97.el8.1                   @anaconda 
+iwl2030-firmware.noarch              18.168.6.1-97.el8.1                   @anaconda 
+iwl3160-firmware.noarch              1:25.30.13.0-97.el8.1                 @anaconda 
+iwl3945-firmware.noarch              15.32.2.9-97.el8.1                    @anaconda 
+iwl4965-firmware.noarch              228.61.2.24-97.el8.1                  @anaconda 
+iwl5000-firmware.noarch              8.83.5.1_1-97.el8.1                   @anaconda 
+iwl5150-firmware.noarch              8.24.2.2-97.el8.1                     @anaconda 
+iwl6000-firmware.noarch              9.221.4.1-97.el8.1                    @anaconda 
+iwl6000g2a-firmware.noarch           18.168.6.1-97.el8.1                   @anaconda 
+iwl6050-firmware.noarch              41.28.5.1-97.el8.1                    @anaconda 
+iwl7260-firmware.noarch              1:25.30.13.0-97.el8.1                 @anaconda 
+jansson.x86_64                       2.11-3.el8                            @anaconda 
+json-c.x86_64                        0.13.1-0.2.el8                        @anaconda 
+kbd.x86_64                           2.0.4-8.el8                           @anaconda 
+kbd-legacy.noarch                    2.0.4-8.el8                           @anaconda 
+kbd-misc.noarch                      2.0.4-8.el8                           @anaconda 
+kernel.x86_64                        4.18.0-193.el8                        @anaconda 
+kernel-core.x86_64                   4.18.0-193.el8                        @anaconda 
+kernel-modules.x86_64                4.18.0-193.el8                        @anaconda 
+kernel-tools.x86_64                  4.18.0-193.el8                        @anaconda 
+kernel-tools-libs.x86_64             4.18.0-193.el8                        @anaconda 
+kexec-tools.x86_64                   2.0.20-14.el8                         @anaconda 
+keyutils-libs.x86_64                 1.5.10-6.el8                          @anaconda 
+kmod.x86_64                          25-16.el8                             @anaconda 
+kmod-libs.x86_64                     25-16.el8                             @anaconda 
+kpartx.x86_64                        0.8.3-3.el8                           @anaconda 
+krb5-libs.x86_64                     1.17-18.el8                           @anaconda 
+langpacks-en.noarch                  1.0-12.el8                            @AppStream
+less.x86_64                          530-1.el8                             @anaconda 
+libacl.x86_64                        2.2.53-1.el8                          @anaconda 
+libaio.x86_64                        0.3.112-1.el8                         @anaconda 
+libarchive.x86_64                    3.3.2-8.el8_1                         @anaconda 
+libassuan.x86_64                     2.5.1-3.el8                           @anaconda 
+libattr.x86_64                       2.4.48-3.el8                          @anaconda 
+libbasicobjects.x86_64               0.1.1-39.el8                          @anaconda 
+libblkid.x86_64                      2.32.1-22.el8                         @anaconda 
+libcap.x86_64                        2.26-3.el8                            @anaconda 
+libcap-ng.x86_64                     0.7.9-5.el8                           @anaconda 
+libcollection.x86_64                 0.7.0-39.el8                          @anaconda 
+libcom_err.x86_64                    1.45.4-3.el8                          @anaconda 
+libcomps.x86_64                      0.1.11-4.el8                          @anaconda 
+libcroco.x86_64                      0.6.12-4.el8                          @anaconda 
+libcurl.x86_64                       7.61.1-12.el8                         @anaconda 
+libdaemon.x86_64                     0.14-15.el8                           @anaconda 
+libdb.x86_64                         5.3.28-37.el8                         @anaconda 
+libdb-utils.x86_64                   5.3.28-37.el8                         @anaconda 
+libdhash.x86_64                      0.5.0-39.el8                          @anaconda 
+libdnf.x86_64                        0.39.1-5.el8                          @anaconda 
+libdrm.x86_64                        2.4.100-1.el8                         @AppStream
+libedit.x86_64                       3.1-23.20170329cvs.el8                @anaconda 
+libestr.x86_64                       0.1.10-1.el8                          @AppStream
+libevent.x86_64                      2.1.8-5.el8                           @anaconda 
+libfastjson.x86_64                   0.99.8-2.el8                          @AppStream
+libfdisk.x86_64                      2.32.1-22.el8                         @anaconda 
+libffi.x86_64                        3.1-21.el8                            @anaconda 
+libgcc.x86_64                        8.3.1-5.el8.0.2                       @anaconda 
+libgcrypt.x86_64                     1.8.3-4.el8                           @anaconda 
+libgomp.x86_64                       8.3.1-5.el8.0.2                       @anaconda 
+libgpg-error.x86_64                  1.31-1.el8                            @anaconda 
+libgudev.x86_64                      232-4.el8                             @anaconda 
+libidn2.x86_64                       2.2.0-1.el8                           @anaconda 
+libini_config.x86_64                 1.3.1-39.el8                          @anaconda 
+libkcapi.x86_64                      1.1.1-16_1.el8                        @anaconda 
+libkcapi-hmaccalc.x86_64             1.1.1-16_1.el8                        @anaconda 
+libksba.x86_64                       1.3.5-7.el8                           @anaconda 
+libldb.x86_64                        2.0.7-3.el8                           @anaconda 
+libmaxminddb.x86_64                  1.2.0-7.el8                           @AppStream
+libmetalink.x86_64                   0.1.3-7.el8                           @anaconda 
+libmnl.x86_64                        1.0.4-6.el8                           @anaconda 
+libmodulemd1.x86_64                  1.8.16-0.2.8.2.1                      @anaconda 
+libmount.x86_64                      2.32.1-22.el8                         @anaconda 
+libmspack.x86_64                     0.7-0.3.alpha.el8.4                   @AppStream
+libndp.x86_64                        1.7-3.el8                             @anaconda 
+libnetfilter_conntrack.x86_64        1.0.6-5.el8                           @anaconda 
+libnfnetlink.x86_64                  1.0.1-13.el8                          @anaconda 
+libnfsidmap.x86_64                   1:2.3.3-31.el8                        @anaconda 
+libnftnl.x86_64                      1.1.5-4.el8                           @anaconda 
+libnghttp2.x86_64                    1.33.0-1.el8_0.1                      @anaconda 
+libnl3.x86_64                        3.5.0-1.el8                           @anaconda 
+libnl3-cli.x86_64                    3.5.0-1.el8                           @anaconda 
+libnsl2.x86_64                       1.2.0-2.20180605git4a062cf.el8        @anaconda 
+libpath_utils.x86_64                 0.2.1-39.el8                          @anaconda 
+libpcap.x86_64                       14:1.9.0-3.el8                        @anaconda 
+libpciaccess.x86_64                  0.14-1.el8                            @anaconda 
+libpipeline.x86_64                   1.5.0-2.el8                           @anaconda 
+libpng.x86_64                        2:1.6.34-5.el8                        @anaconda 
+libpsl.x86_64                        0.20.2-5.el8                          @anaconda 
+libpwquality.x86_64                  1.4.0-9.el8                           @anaconda 
+libref_array.x86_64                  0.1.5-39.el8                          @anaconda 
+librepo.x86_64                       1.11.0-2.el8                          @anaconda 
+libreport-filesystem.x86_64          2.9.5-10.el8                          @anaconda 
+libseccomp.x86_64                    2.4.1-1.el8                           @anaconda 
+libsecret.x86_64                     0.18.6-1.el8                          @anaconda 
+libselinux.x86_64                    2.9-3.el8                             @anaconda 
+libselinux-utils.x86_64              2.9-3.el8                             @anaconda 
+libsemanage.x86_64                   2.9-2.el8                             @anaconda 
+libsepol.x86_64                      2.9-1.el8                             @anaconda 
+libsigsegv.x86_64                    2.11-5.el8                            @anaconda 
+libsmartcols.x86_64                  2.32.1-22.el8                         @anaconda 
+libsolv.x86_64                       0.7.7-1.el8                           @anaconda 
+libss.x86_64                         1.45.4-3.el8                          @anaconda 
+libssh.x86_64                        0.9.0-4.el8                           @anaconda 
+libssh-config.noarch                 0.9.0-4.el8                           @anaconda 
+libsss_autofs.x86_64                 2.2.3-20.el8                          @anaconda 
+libsss_certmap.x86_64                2.2.3-20.el8                          @anaconda 
+libsss_idmap.x86_64                  2.2.3-20.el8                          @anaconda 
+libsss_nss_idmap.x86_64              2.2.3-20.el8                          @anaconda 
+libsss_sudo.x86_64                   2.2.3-20.el8                          @anaconda 
+libstdc++.x86_64                     8.3.1-5.el8.0.2                       @anaconda 
+libsysfs.x86_64                      2.1.0-24.el8                          @anaconda 
+libtalloc.x86_64                     2.2.0-7.el8                           @anaconda 
+libtasn1.x86_64                      4.13-3.el8                            @anaconda 
+libtdb.x86_64                        1.4.2-2.el8                           @anaconda 
+libteam.x86_64                       1.29-1.el8                            @anaconda 
+libtevent.x86_64                     0.10.0-2.el8                          @anaconda 
+libtirpc.x86_64                      1.1.4-4.el8                           @anaconda 
+libtool-ltdl.x86_64                  2.4.6-25.el8                          @anaconda 
+libunistring.x86_64                  0.9.9-3.el8                           @anaconda 
+libusbx.x86_64                       1.0.22-1.el8                          @anaconda 
+libuser.x86_64                       0.62-23.el8                           @anaconda 
+libutempter.x86_64                   1.1.6-14.el8                          @anaconda 
+libuuid.x86_64                       2.32.1-22.el8                         @anaconda 
+libverto.x86_64                      0.3.0-5.el8                           @anaconda 
+libxcrypt.x86_64                     4.1.1-4.el8                           @anaconda 
+libxkbcommon.x86_64                  0.9.1-1.el8                           @AppStream
+libxml2.x86_64                       2.9.7-7.el8                           @anaconda 
+libxslt.x86_64                       1.1.32-4.el8                          @anaconda 
+libyaml.x86_64                       0.1.7-5.el8                           @anaconda 
+libzstd.x86_64                       1.4.2-2.el8                           @anaconda 
+linux-firmware.noarch                20191202-97.gite8a0f4c9.el8           @anaconda 
+logrotate.x86_64                     3.14.0-3.el8                          @anaconda 
+lshw.x86_64                          B.02.18-23.el8                        @anaconda 
+lsscsi.x86_64                        0.30-1.el8                            @anaconda 
+lua-libs.x86_64                      5.3.4-11.el8                          @anaconda 
+lvm2.x86_64                          8:2.03.08-3.el8                       @anaconda 
+lvm2-libs.x86_64                     8:2.03.08-3.el8                       @anaconda 
+lz4-libs.x86_64                      1.8.1.2-4.el8                         @anaconda 
+lzo.x86_64                           2.08-14.el8                           @anaconda 
+make.x86_64                          1:4.2.1-10.el8                        @BaseOS   
+man-db.x86_64                        2.7.6.1-17.el8                        @anaconda 
+microcode_ctl.x86_64                 4:20191115-4.el8                      @anaconda 
+mozjs60.x86_64                       60.9.0-4.el8                          @anaconda 
+mpfr.x86_64                          3.1.6-1.el8                           @anaconda 
+nano.x86_64                          2.9.8-1.el8                           @BaseOS   
+ncurses.x86_64                       6.1-7.20180224.el8                    @anaconda 
+ncurses-base.noarch                  6.1-7.20180224.el8                    @anaconda 
+ncurses-libs.x86_64                  6.1-7.20180224.el8                    @anaconda 
+nettle.x86_64                        3.4.1-1.el8                           @anaconda 
+newt.x86_64                          0.52.20-11.el8                        @anaconda 
+nftables.x86_64                      1:0.9.3-12.el8                        @anaconda 
+npth.x86_64                          1.5-4.el8                             @anaconda 
+numactl-libs.x86_64                  2.0.12-9.el8                          @anaconda 
+ocaml-srpm-macros.noarch             5-4.el8                               @AppStream
+open-vm-tools.x86_64                 11.0.0-4.el8                          @AppStream
+openblas-srpm-macros.noarch          2-2.el8                               @AppStream
+openldap.x86_64                      2.4.46-11.el8_1                       @anaconda 
+openssh.x86_64                       8.0p1-4.el8_1                         @anaconda 
+openssh-clients.x86_64               8.0p1-4.el8_1                         @anaconda 
+openssh-server.x86_64                8.0p1-4.el8_1                         @anaconda 
+openssl.x86_64                       1:1.1.1c-15.el8                       @anaconda 
+openssl-libs.x86_64                  1:1.1.1c-15.el8                       @anaconda 
+openssl-pkcs11.x86_64                0.4.10-2.el8                          @anaconda 
+os-prober.x86_64                     1.74-6.el8                            @anaconda 
+p11-kit.x86_64                       0.23.14-5.el8_0                       @anaconda 
+p11-kit-trust.x86_64                 0.23.14-5.el8_0                       @anaconda 
+pam.x86_64                           1.3.1-8.el8                           @anaconda 
+parted.x86_64                        3.2-38.el8                            @anaconda 
+passwd.x86_64                        0.80-3.el8                            @anaconda 
+pciutils.x86_64                      3.5.6-4.el8                           @anaconda 
+pciutils-libs.x86_64                 3.5.6-4.el8                           @anaconda 
+pcre.x86_64                          8.42-4.el8                            @anaconda 
+pcre2.x86_64                         10.32-1.el8                           @anaconda 
+perl.x86_64                          4:5.26.3-416.el8                      @AppStream
+perl-Algorithm-Diff.noarch           1.1903-9.el8                          @AppStream
+perl-Archive-Tar.noarch              2.30-1.el8                            @AppStream
+perl-Archive-Zip.noarch              1.60-3.el8                            @AppStream
+perl-Attribute-Handlers.noarch       0.99-416.el8                          @AppStream
+perl-B-Debug.noarch                  1.26-2.el8                            @AppStream
+perl-CPAN.noarch                     2.18-397.el8                          @AppStream
+perl-CPAN-Meta.noarch                2.150010-396.el8                      @AppStream
+perl-CPAN-Meta-Requirements.noarch   2.140-396.el8                         @AppStream
+perl-CPAN-Meta-YAML.noarch           0.018-397.el8                         @AppStream
+perl-Carp.noarch                     1.42-396.el8                          @BaseOS   
+perl-Compress-Bzip2.x86_64           2.26-6.el8                            @AppStream
+perl-Compress-Raw-Bzip2.x86_64       2.081-1.el8                           @AppStream
+perl-Compress-Raw-Zlib.x86_64        2.081-1.el8                           @AppStream
+perl-Config-Perl-V.noarch            0.30-1.el8                            @AppStream
+perl-DB_File.x86_64                  1.842-1.el8                           @AppStream
+perl-Data-Dumper.x86_64              2.167-399.el8                         @BaseOS   
+perl-Data-OptList.noarch             0.110-6.el8                           @AppStream
+perl-Data-Section.noarch             0.200007-3.el8                        @AppStream
+perl-Devel-PPPort.x86_64             3.36-5.el8                            @AppStream
+perl-Devel-Peek.x86_64               1.26-416.el8                          @AppStream
+perl-Devel-SelfStubber.noarch        1.06-416.el8                          @AppStream
+perl-Devel-Size.x86_64               0.81-2.el8                            @AppStream
+perl-Digest.noarch                   1.17-395.el8                          @AppStream
+perl-Digest-MD5.x86_64               2.55-396.el8                          @AppStream
+perl-Digest-SHA.x86_64               1:6.02-1.el8                          @AppStream
+perl-Encode.x86_64                   4:2.97-3.el8                          @BaseOS   
+perl-Encode-Locale.noarch            1.05-9.el8                            @AppStream
+perl-Encode-devel.x86_64             4:2.97-3.el8                          @AppStream
+perl-Env.noarch                      1.04-395.el8                          @AppStream
+perl-Errno.x86_64                    1.28-416.el8                          @BaseOS   
+perl-Error.noarch                    1:0.17025-2.el8                       @AppStream
+perl-Exporter.noarch                 5.72-396.el8                          @BaseOS   
+perl-ExtUtils-CBuilder.noarch        1:0.280230-2.el8                      @AppStream
+perl-ExtUtils-Command.noarch         1:7.34-1.el8                          @AppStream
+perl-ExtUtils-Embed.noarch           1.34-416.el8                          @AppStream
+perl-ExtUtils-Install.noarch         2.14-4.el8                            @AppStream
+perl-ExtUtils-MM-Utils.noarch        1:7.34-1.el8                          @AppStream
+perl-ExtUtils-MakeMaker.noarch       1:7.34-1.el8                          @AppStream
+perl-ExtUtils-Manifest.noarch        1.70-395.el8                          @AppStream
+perl-ExtUtils-Miniperl.noarch        1.06-416.el8                          @AppStream
+perl-ExtUtils-ParseXS.noarch         1:3.35-2.el8                          @AppStream
+perl-File-Fetch.noarch               0.56-2.el8                            @AppStream
+perl-File-HomeDir.noarch             1.002-4.el8                           @AppStream
+perl-File-Path.noarch                2.15-2.el8                            @BaseOS   
+perl-File-Temp.noarch                0.230.600-1.el8                       @BaseOS   
+perl-File-Which.noarch               1.22-2.el8                            @AppStream
+perl-Filter.x86_64                   2:1.58-2.el8                          @AppStream
+perl-Filter-Simple.noarch            0.94-2.el8                            @AppStream
+perl-Getopt-Long.noarch              1:2.50-4.el8                          @BaseOS   
+perl-Git.noarch                      2.18.4-2.el8_2                        @AppStream
+perl-HTTP-Tiny.noarch                0.074-1.el8                           @BaseOS   
+perl-IO.x86_64                       1.38-416.el8                          @BaseOS   
+perl-IO-Compress.noarch              2.081-1.el8                           @AppStream
+perl-IO-Socket-IP.noarch             0.39-5.el8                            @AppStream
+perl-IO-Socket-SSL.noarch            2.066-4.el8                           @AppStream
+perl-IO-Zlib.noarch                  1:1.10-416.el8                        @AppStream
+perl-IPC-Cmd.noarch                  2:1.02-1.el8                          @AppStream
+perl-IPC-SysV.x86_64                 2.07-397.el8                          @AppStream
+perl-IPC-System-Simple.noarch        1.25-17.el8                           @AppStream
+perl-JSON-PP.noarch                  1:2.97.001-3.el8                      @AppStream
+perl-Locale-Codes.noarch             3.57-1.el8                            @AppStream
+perl-Locale-Maketext.noarch          1.28-396.el8                          @AppStream
+perl-Locale-Maketext-Simple.noarch   1:0.21-416.el8                        @AppStream
+perl-MIME-Base64.x86_64              3.15-396.el8                          @BaseOS   
+perl-MRO-Compat.noarch               0.13-4.el8                            @AppStream
+perl-Math-BigInt.noarch              1:1.9998.11-7.el8                     @BaseOS   
+perl-Math-BigInt-FastCalc.x86_64     0.500.600-6.el8                       @AppStream
+perl-Math-BigRat.noarch              0.2614-1.el8                          @AppStream
+perl-Math-Complex.noarch             1.59-416.el8                          @BaseOS   
+perl-Memoize.noarch                  1.03-416.el8                          @AppStream
+perl-Module-Build.noarch             2:0.42.24-5.el8                       @AppStream
+perl-Module-CoreList.noarch          1:5.20181130-1.el8                    @AppStream
+perl-Module-CoreList-tools.noarch    1:5.20181130-1.el8                    @AppStream
+perl-Module-Load.noarch              1:0.32-395.el8                        @AppStream
+perl-Module-Load-Conditional.noarch  0.68-395.el8                          @AppStream
+perl-Module-Loaded.noarch            1:0.08-416.el8                        @AppStream
+perl-Module-Metadata.noarch          1.000033-395.el8                      @AppStream
+perl-Mozilla-CA.noarch               20160104-7.el8                        @AppStream
+perl-Net-Ping.noarch                 2.55-416.el8                          @AppStream
+perl-Net-SSLeay.x86_64               1.88-1.el8                            @AppStream
+perl-Package-Generator.noarch        1.106-11.el8                          @AppStream
+perl-Params-Check.noarch             1:0.38-395.el8                        @AppStream
+perl-Params-Util.x86_64              1.07-22.el8                           @AppStream
+perl-PathTools.x86_64                3.74-1.el8                            @BaseOS   
+perl-Perl-OSType.noarch              1.010-396.el8                         @AppStream
+perl-PerlIO-via-QuotedPrint.noarch   0.08-395.el8                          @AppStream
+perl-Pod-Checker.noarch              4:1.73-395.el8                        @AppStream
+perl-Pod-Escapes.noarch              1:1.07-395.el8                        @BaseOS   
+perl-Pod-Html.noarch                 1.22.02-416.el8                       @AppStream
+perl-Pod-Parser.noarch               1.63-396.el8                          @AppStream
+perl-Pod-Perldoc.noarch              3.28-396.el8                          @BaseOS   
+perl-Pod-Simple.noarch               1:3.35-395.el8                        @BaseOS   
+perl-Pod-Usage.noarch                4:1.69-395.el8                        @BaseOS   
+perl-Scalar-List-Utils.x86_64        3:1.49-2.el8                          @BaseOS   
+perl-SelfLoader.noarch               1.23-416.el8                          @AppStream
+perl-Socket.x86_64                   4:2.027-3.el8                         @BaseOS   
+perl-Software-License.noarch         0.103013-2.el8                        @AppStream
+perl-Storable.x86_64                 1:3.11-3.el8                          @BaseOS   
+perl-Sub-Exporter.noarch             0.987-15.el8                          @AppStream
+perl-Sub-Install.noarch              0.928-14.el8                          @AppStream
+perl-Sys-Syslog.x86_64               0.35-397.el8                          @AppStream
+perl-Term-ANSIColor.noarch           4.06-396.el8                          @BaseOS   
+perl-Term-Cap.noarch                 1.17-395.el8                          @BaseOS   
+perl-TermReadKey.x86_64              2.37-7.el8                            @AppStream
+perl-Test.noarch                     1.30-416.el8                          @AppStream
+perl-Test-Harness.noarch             1:3.42-1.el8                          @AppStream
+perl-Test-Simple.noarch              1:1.302135-1.el8                      @AppStream
+perl-Text-Balanced.noarch            2.03-395.el8                          @AppStream
+perl-Text-Diff.noarch                1.45-2.el8                            @AppStream
+perl-Text-Glob.noarch                0.11-4.el8                            @AppStream
+perl-Text-ParseWords.noarch          3.30-395.el8                          @BaseOS   
+perl-Text-Tabs+Wrap.noarch           2013.0523-395.el8                     @BaseOS   
+perl-Text-Template.noarch            1.51-1.el8                            @AppStream
+perl-Thread-Queue.noarch             3.13-1.el8                            @AppStream
+perl-Time-HiRes.x86_64               1.9758-1.el8                          @AppStream
+perl-Time-Local.noarch               1:1.280-1.el8                         @BaseOS   
+perl-Time-Piece.x86_64               1.31-416.el8                          @AppStream
+perl-URI.noarch                      1.73-3.el8                            @AppStream
+perl-Unicode-Collate.x86_64          1.25-2.el8                            @AppStream
+perl-Unicode-Normalize.x86_64        1.25-396.el8                          @BaseOS   
+perl-autodie.noarch                  2.29-396.el8                          @AppStream
+perl-bignum.noarch                   0.49-2.el8                            @AppStream
+perl-constant.noarch                 1.33-396.el8                          @BaseOS   
+perl-devel.x86_64                    4:5.26.3-416.el8                      @AppStream
+perl-encoding.x86_64                 4:2.22-3.el8                          @AppStream
+perl-experimental.noarch             0.019-2.el8                           @AppStream
+perl-inc-latest.noarch               2:0.500-9.el8                         @AppStream
+perl-interpreter.x86_64              4:5.26.3-416.el8                      @BaseOS   
+perl-libnet.noarch                   3.11-3.el8                            @AppStream
+perl-libnetcfg.noarch                4:5.26.3-416.el8                      @AppStream
+perl-libs.x86_64                     4:5.26.3-416.el8                      @BaseOS   
+perl-local-lib.noarch                2.000024-2.el8                        @AppStream
+perl-macros.x86_64                   4:5.26.3-416.el8                      @BaseOS   
+perl-open.noarch                     1.11-416.el8                          @AppStream
+perl-parent.noarch                   1:0.237-1.el8                         @BaseOS   
+perl-perlfaq.noarch                  5.20180605-1.el8                      @AppStream
+perl-podlators.noarch                4.11-1.el8                            @BaseOS   
+perl-srpm-macros.noarch              1-25.el8                              @AppStream
+perl-threads.x86_64                  1:2.21-2.el8                          @BaseOS   
+perl-threads-shared.x86_64           1.58-2.el8                            @BaseOS   
+perl-utils.noarch                    5.26.3-416.el8                        @AppStream
+perl-version.x86_64                  6:0.99.24-1.el8                       @AppStream
+pigz.x86_64                          2.4-4.el8                             @anaconda 
+pinentry.x86_64                      1.1.0-2.el8                           @AppStream
+platform-python.x86_64               3.6.8-23.el8                          @anaconda 
+platform-python-pip.noarch           9.0.3-16.el8                          @anaconda 
+platform-python-setuptools.noarch    39.2.0-5.el8                          @anaconda 
+plymouth.x86_64                      0.9.3-16.el8                          @AppStream
+plymouth-core-libs.x86_64            0.9.3-16.el8                          @AppStream
+plymouth-scripts.x86_64              0.9.3-16.el8                          @AppStream
+policycoreutils.x86_64               2.9-9.el8                             @anaconda 
+polkit.x86_64                        0.115-11.el8                          @anaconda 
+polkit-libs.x86_64                   0.115-11.el8                          @anaconda 
+polkit-pkla-compat.x86_64            0.1-12.el8                            @anaconda 
+popt.x86_64                          1.16-14.el8                           @anaconda 
+prefixdevname.x86_64                 0.1.0-6.el8                           @anaconda 
+procps-ng.x86_64                     3.3.15-1.el8                          @anaconda 
+publicsuffix-list-dafsa.noarch       20180723-1.el8                        @anaconda 
+python-srpm-macros.noarch            3-38.el8                              @AppStream
+python3-asn1crypto.noarch            0.24.0-3.el8                          @anaconda 
+python3-cffi.x86_64                  1.11.5-5.el8                          @anaconda 
+python3-configobj.noarch             5.0.6-11.el8                          @anaconda 
+python3-cryptography.x86_64          2.3-3.el8                             @anaconda 
+python3-dateutil.noarch              1:2.6.1-6.el8                         @anaconda 
+python3-dbus.x86_64                  1.2.4-15.el8                          @anaconda 
+python3-decorator.noarch             4.2.1-2.el8                           @anaconda 
+python3-dmidecode.x86_64             3.12.2-15.el8                         @anaconda 
+python3-dnf.noarch                   4.2.17-6.el8                          @anaconda 
+python3-dnf-plugin-spacewalk.noarch  2.8.5-11.module_el8.1.0+211+ad6c0bc7  @AppStream
+python3-dnf-plugins-core.noarch      4.0.12-3.el8                          @anaconda 
+python3-firewall.noarch              0.8.0-4.el8                           @anaconda 
+python3-gobject-base.x86_64          3.28.3-1.el8                          @anaconda 
+python3-gpg.x86_64                   1.10.0-6.el8.0.1                      @anaconda 
+python3-hawkey.x86_64                0.39.1-5.el8                          @anaconda 
+python3-hwdata.noarch                2.3.6-3.el8                           @AppStream
+python3-idna.noarch                  2.5-5.el8                             @anaconda 
+python3-libcomps.x86_64              0.1.11-4.el8                          @anaconda 
+python3-libdnf.x86_64                0.39.1-5.el8                          @anaconda 
+python3-librepo.x86_64               1.11.0-2.el8                          @anaconda 
+python3-libs.x86_64                  3.6.8-23.el8                          @anaconda 
+python3-libselinux.x86_64            2.9-3.el8                             @anaconda 
+python3-libxml2.x86_64               2.9.7-7.el8                           @anaconda 
+python3-linux-procfs.noarch          0.6-7.el8                             @anaconda 
+python3-netifaces.x86_64             0.10.6-4.el8                          @AppStream
+python3-newt.x86_64                  0.52.20-11.el8                        @AppStream
+python3-nftables.x86_64              1:0.9.3-12.el8                        @anaconda 
+python3-perf.x86_64                  4.18.0-193.el8                        @anaconda 
+python3-pip-wheel.noarch             9.0.3-16.el8                          @anaconda 
+python3-ply.noarch                   3.9-8.el8                             @anaconda 
+python3-pyOpenSSL.noarch             18.0.0-1.el8                          @AppStream
+python3-pycparser.noarch             2.14-14.el8                           @anaconda 
+python3-pyparsing.noarch             2.1.10-7.el8                          @BaseOS   
+python3-pyudev.noarch                0.21.0-7.el8                          @anaconda 
+python3-rhn-client-tools.x86_64      2.8.16-13.module_el8.1.0+211+ad6c0bc7 @AppStream
+python3-rhnlib.noarch                2.8.6-8.module_el8.1.0+211+ad6c0bc7   @AppStream
+python3-rpm.x86_64                   4.14.2-37.el8                         @anaconda 
+python3-rpm-macros.noarch            3-38.el8                              @AppStream
+python3-schedutils.x86_64            0.6-6.el8                             @anaconda 
+python3-setuptools-wheel.noarch      39.2.0-5.el8                          @anaconda 
+python3-six.noarch                   1.11.0-8.el8                          @anaconda 
+python3-slip.noarch                  0.6.4-11.el8                          @anaconda 
+python3-slip-dbus.noarch             0.6.4-11.el8                          @anaconda 
+python3-syspurpose.x86_64            1.26.16-1.el8.0.1                     @anaconda 
+python3-unbound.x86_64               1.7.3-10.el8                          @AppStream
+qt5-srpm-macros.noarch               5.12.5-3.el8                          @AppStream
+readline.x86_64                      7.0-10.el8                            @anaconda 
+redhat-rpm-config.noarch             122-1.el8                             @AppStream
+rhn-client-tools.x86_64              2.8.16-13.module_el8.1.0+211+ad6c0bc7 @AppStream
+rng-tools.x86_64                     6.8-3.el8                             @anaconda 
+rootfiles.noarch                     8.1-22.el8                            @anaconda 
+rpm.x86_64                           4.14.2-37.el8                         @anaconda 
+rpm-build-libs.x86_64                4.14.2-37.el8                         @anaconda 
+rpm-libs.x86_64                      4.14.2-37.el8                         @anaconda 
+rpm-plugin-selinux.x86_64            4.14.2-37.el8                         @anaconda 
+rpm-plugin-systemd-inhibit.x86_64    4.14.2-37.el8                         @anaconda 
+rsyslog.x86_64                       8.1911.0-3.el8                        @AppStream
+rust-srpm-macros.noarch              5-2.el8                               @AppStream
+sed.x86_64                           4.5-1.el8                             @anaconda 
+selinux-policy.noarch                3.14.3-41.el8                         @anaconda 
+selinux-policy-targeted.noarch       3.14.3-41.el8                         @anaconda 
+setup.noarch                         2.12.2-5.el8                          @anaconda 
+sg3_utils.x86_64                     1.44-5.el8                            @anaconda 
+sg3_utils-libs.x86_64                1.44-5.el8                            @anaconda 
+shadow-utils.x86_64                  2:4.6-8.el8                           @anaconda 
+shared-mime-info.x86_64              1.9-3.el8                             @anaconda 
+slang.x86_64                         2.3.2-3.el8                           @anaconda 
+snappy.x86_64                        1.1.7-5.el8                           @anaconda 
+sqlite-libs.x86_64                   3.26.0-6.el8                          @anaconda 
+squashfs-tools.x86_64                4.3-19.el8                            @anaconda 
+sssd-client.x86_64                   2.2.3-20.el8                          @anaconda 
+sssd-common.x86_64                   2.2.3-20.el8                          @anaconda 
+sssd-kcm.x86_64                      2.2.3-20.el8                          @anaconda 
+sssd-nfs-idmap.x86_64                2.2.3-20.el8                          @anaconda 
+sudo.x86_64                          1.8.29-5.el8                          @anaconda 
+systemd.x86_64                       239-29.el8                            @anaconda 
+systemd-libs.x86_64                  239-29.el8                            @anaconda 
+systemd-pam.x86_64                   239-29.el8                            @anaconda 
+systemd-udev.x86_64                  239-29.el8                            @anaconda 
+systemtap-sdt-devel.x86_64           4.2-6.el8                             @AppStream
+tar.x86_64                           2:1.30-4.el8                          @anaconda 
+teamd.x86_64                         1.29-1.el8                            @anaconda 
+trousers.x86_64                      0.3.14-4.el8                          @anaconda 
+trousers-lib.x86_64                  0.3.14-4.el8                          @anaconda 
+tuned.noarch                         2.13.0-6.el8                          @anaconda 
+tzdata.noarch                        2019c-1.el8                           @anaconda 
+unbound-libs.x86_64                  1.7.3-10.el8                          @AppStream
+unzip.x86_64                         6.0-43.el8                            @BaseOS   
+util-linux.x86_64                    2.32.1-22.el8                         @anaconda 
+vim-minimal.x86_64                   2:8.0.1763-13.el8                     @anaconda 
+virt-what.x86_64                     1.18-6.el8                            @anaconda 
+wget.x86_64                          1.19.5-8.el8_1.1                      @AppStream
+which.x86_64                         2.21-12.el8                           @anaconda 
+xfsprogs.x86_64                      5.0.0-2.el8                           @anaconda 
+xkeyboard-config.noarch              2.28-1.el8                            @AppStream
+xmlsec1.x86_64                       1.2.25-4.el8                          @AppStream
+xmlsec1-openssl.x86_64               1.2.25-4.el8                          @AppStream
+xz.x86_64                            5.2.4-3.el8                           @anaconda 
+xz-libs.x86_64                       5.2.4-3.el8                           @anaconda 
+yum.noarch                           4.2.17-6.el8                          @anaconda 
+zip.x86_64                           3.0-23.el8                            @BaseOS   
+zlib.x86_64                          1.2.11-13.el8                         @anaconda 
+
+[1;31m Local Dns Resolver Server: [0m
+nameserver 10.102.100.22
+nameserver 10.101.100.42
+nameserver 10.101.100.41
+[1;31m List of Active Shells Users: [0m           system boot  2020-09-16 12:53
+student  + tty1         2020-09-24 19:20   .          1078
+           run-level 3  2020-09-16 12:54
+           pts/0        2020-09-16 15:21              1982 id=ts/0  term=0 exit=0
+
+[1;31m OS Installation Date: [0mTue 23 Jun 2020 10:52:12 AM EDT
+[1;31m Hardware Details: [0m
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              1
+On-line CPU(s) list: 0
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               45
+Model name:          Intel(R) Xeon(R) CPU E5-2680 0 @ 2.70GHz
+Stepping:            7
+CPU MHz:             2700.000
+BogoMIPS:            5400.00
+Hypervisor vendor:   VMware
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            20480K
+NUMA node0 CPU(s):   0
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq ssse3 cx16 pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx hypervisor lahf_lm pti ssbd ibrs ibpb stibp tsc_adjust arat md_clear flush_l1d arch_capabilities
+[1;31m Running Services: [0m
+  auditd.service                                                                            loaded active running Security Auditing Service                                                    
+  crond.service                                                                             loaded active running Command Scheduler                                                            
+  dbus.service                                                                              loaded active running D-Bus System Message Bus                                                     
+  firewalld.service                                                                         loaded active running firewalld - dynamic firewall daemon                                          
+  getty@tty1.service                                                                        loaded active running Getty on tty1                                                                
+  NetworkManager.service                                                                    loaded active running Network Manager                                                              
+  polkit.service                                                                            loaded active running Authorization Manager                                                        
+  rngd.service                                                                              loaded active running Hardware RNG Entropy Gatherer Daemon                                         
+  rsyslog.service                                                                           loaded active running System Logging Service                                                       
+  sshd.service                                                                              loaded active running OpenSSH server daemon                                                        
+  sssd-kcm.service                                                                          loaded active running SSSD Kerberos Cache Manager                                                  
+  sssd.service                                                                              loaded active running System Security Services Daemon                                              
+  systemd-journald.service                                                                  loaded active running Journal Service                                                              
+  systemd-logind.service                                                                    loaded active running Login Service                                                                
+  systemd-udevd.service                                                                     loaded active running udev Kernel Device Manager                                                   
+  tuned.service                                                                             loaded active running Dynamic System Tuning Daemon                                                 
+  user@1000.service                                                                         loaded active running User Manager for UID 1000                                                    
+  vgauthd.service                                                                           loaded active running VGAuth Service for open-vm-tools                                             
+  vmtoolsd.service                                                                          loaded active running Service for virtual machines hosted on VMware                                
+
+[1;31m Not Running Services: [0m
+  dracut-shutdown.service                                                                   loaded active exited  Restore /run/initramfs on shutdown                                           
+  import-state.service                                                                      loaded active exited  Import network configuration from initramfs                                  
+  kdump.service                                                                             loaded active exited  Crash recovery kernel arming                                                 
+  kmod-static-nodes.service                                                                 loaded active exited  Create list of required static device nodes for the current kernel           
+  lvm2-monitor.service                                                                      loaded active exited  Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lvm2-pvscan@8:2.service                                                                   loaded active exited  LVM event activation on device 8:2                                           
+  nis-domainname.service                                                                    loaded active exited  Read and set NIS domainname from /etc/sysconfig/network                      
+  rngd-wake-threshold.service                                                               loaded active exited  Hardware RNG Entropy Gatherer Wake threshold service                         
+  systemd-fsck@dev-disk-by\x2duuid-f64cc2de\x2de2de\x2d4dd1\x2d846f\x2db8ac048bdbb7.service loaded active exited  File System Check on /dev/disk/by-uuid/f64cc2de-e2de-4dd1-846f-b8ac048bdbb7  
+  systemd-journal-flush.service                                                             loaded active exited  Flush Journal to Persistent Storage                                          
+  systemd-random-seed.service                                                               loaded active exited  Load/Save Random Seed                                                        
+  systemd-remount-fs.service                                                                loaded active exited  Remount Root and Kernel File Systems                                         
+  systemd-sysctl.service                                                                    loaded active exited  Apply Kernel Variables                                                       
+  systemd-tmpfiles-setup-dev.service                                                        loaded active exited  Create Static Device Nodes in /dev                                           
+  systemd-tmpfiles-setup.service                                                            loaded active exited  Create Volatile Files and Directories                                        
+  systemd-udev-trigger.service                                                              loaded active exited  udev Coldplug all Devices                                                    
+  systemd-update-utmp.service                                                               loaded active exited  Update UTMP about System Boot/Shutdown                                       
+  systemd-user-sessions.service                                                             loaded active exited  Permit User Sessions                                                         
+  user-runtime-dir@1000.service                                                             loaded active exited  /run/user/1000 mount wrapper                                                 
+
+[1;31m OS Users: [0m
+root
+bin
+daemon
+adm
+lp
+sync
+shutdown
+halt
+mail
+operator
+games
+ftp
+nobody
+dbus
+systemd-coredump
+systemd-resolve
+tss
+polkitd
+unbound
+sssd
+sshd
+rngd
+student
+instructor
+
