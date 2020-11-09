@@ -1,0 +1,152 @@
+Nov  6 20:49:21 enaypek_pri postfix/postfix-script[30511]: starting the Postfix mail system
+Nov  6 20:49:21 enaypek_pri postfix/master[30513]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  6 20:50:25 enaypek_pri postfix/postfix-script[30531]: stopping the Postfix mail system
+Nov  6 20:50:25 enaypek_pri postfix/master[30513]: terminating on signal 15
+Nov  6 20:50:25 enaypek_pri postfix/postfix-script[30609]: starting the Postfix mail system
+Nov  6 20:50:25 enaypek_pri postfix/master[30611]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  6 21:03:39 enaypek_pri postfix/postfix-script[30790]: stopping the Postfix mail system
+Nov  6 21:03:39 enaypek_pri postfix/master[30611]: terminating on signal 15
+Nov  6 21:03:39 enaypek_pri postfix/postfix-script[30868]: starting the Postfix mail system
+Nov  6 21:03:39 enaypek_pri postfix/master[30870]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  7 20:00:02 enaypek_pri postfix/postfix-script[1348]: starting the Postfix mail system
+Nov  7 20:00:02 enaypek_pri postfix/master[1350]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  7 22:05:06 enaypek_pri postfix/postfix-script[1824]: stopping the Postfix mail system
+Nov  7 22:05:06 enaypek_pri postfix/master[1350]: terminating on signal 15
+Nov  7 22:05:06 enaypek_pri postfix/postfix-script[1901]: starting the Postfix mail system
+Nov  7 22:05:06 enaypek_pri postfix/master[1903]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 00:00:03 enaypek_pri postfix/pickup[2281]: 6D8E8102B3D8: uid=1002 from=<enaypek>
+Nov  8 00:00:03 enaypek_pri postfix/cleanup[2604]: 6D8E8102B3D8: message-id=<20201108050003.6D8E8102B3D8@mail.eh.com>
+Nov  8 00:00:03 enaypek_pri postfix/qmgr[1905]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 00:00:03 enaypek_pri postfix/smtp[2607]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:00:03 enaypek_pri postfix/smtp[2607]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=none, delay=0.23, delays=0.05/0.05/0.12/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:02:00 enaypek_pri postfix[2624]: error: to submit mail, use the Postfix sendmail command
+Nov  8 00:02:00 enaypek_pri postfix[2624]: fatal: the postfix command is reserved for the superuser
+Nov  8 00:02:14 enaypek_pri postfix/sendmail[2625]: fatal: usage: sendmail [options]
+Nov  8 00:04:05 enaypek_pri postfix/pickup[2281]: 588C71039BCE: uid=0 from=<root>
+Nov  8 00:04:05 enaypek_pri postfix/cleanup[2631]: 588C71039BCE: message-id=<20201108050405.588C71039BCE@mail.eh.com>
+Nov  8 00:04:05 enaypek_pri postfix/qmgr[1905]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 00:04:05 enaypek_pri postfix/smtp[2633]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:04:05 enaypek_pri postfix/smtp[2633]: 588C71039BCE: to=<hjameel1@ns.com>, relay=none, delay=0.2, delays=0.03/0.02/0.15/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:04:08 enaypek_pri postfix[2635]: error: to submit mail, use the Postfix sendmail command
+Nov  8 00:04:08 enaypek_pri postfix[2635]: fatal: the postfix command is reserved for the superuser
+Nov  8 00:05:07 enaypek_pri postfix/qmgr[1905]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 00:05:07 enaypek_pri postfix/smtp[2633]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:05:07 enaypek_pri postfix/smtp[2633]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=none, delay=304, delays=304/0/0.18/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:05:11 enaypek_pri postfix/pickup[2281]: 59C6E102B3E5: uid=1002 from=<enaypek>
+Nov  8 00:05:11 enaypek_pri postfix/cleanup[2631]: 59C6E102B3E5: message-id=<20201108050511.59C6E102B3E5@mail.eh.com>
+Nov  8 00:05:11 enaypek_pri postfix/qmgr[1905]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:05:11 enaypek_pri postfix/smtp[2633]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:05:11 enaypek_pri postfix/smtp[2633]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=none, delay=0.21, delays=0/0/0.2/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:05:15 enaypek_pri postfix[2640]: error: to submit mail, use the Postfix sendmail command
+Nov  8 00:05:15 enaypek_pri postfix[2640]: fatal: the postfix command is reserved for the superuser
+Nov  8 00:05:23 enaypek_pri postfix[2641]: error: to submit mail, use the Postfix sendmail command
+Nov  8 00:05:23 enaypek_pri postfix[2641]: fatal: the postfix command is reserved for the superuser
+Nov  8 00:05:30 enaypek_pri postfix/postfix-script[2653]: the Postfix mail system is running: PID: 1903
+Nov  8 00:10:07 enaypek_pri postfix/qmgr[1905]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 00:10:07 enaypek_pri postfix/smtp[2866]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:10:07 enaypek_pri postfix/smtp[2866]: 588C71039BCE: to=<hjameel1@ns.com>, relay=none, delay=362, delays=362/0.04/0.13/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:13:19 enaypek_pri postfix/pickup[2281]: 2EC431047530: uid=1002 from=<enaypek>
+Nov  8 00:13:19 enaypek_pri postfix/cleanup[3000]: 2EC431047530: message-id=<20201108051319.2EC431047530@mail.eh.com>
+Nov  8 00:13:19 enaypek_pri postfix/qmgr[1905]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:13:19 enaypek_pri postfix/smtp[3002]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:13:19 enaypek_pri postfix/smtp[3002]: 2EC431047530: to=<hjameel1@ns.com>, relay=none, delay=0.17, delays=0.03/0.02/0.11/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:14:27 enaypek_pri postfix/pickup[2281]: 8A1CB102B3E1: uid=1002 from=<enaypek>
+Nov  8 00:14:27 enaypek_pri postfix/cleanup[3000]: 8A1CB102B3E1: message-id=<20201108051427.8A1CB102B3E1@mail.eh.com>
+Nov  8 00:14:27 enaypek_pri postfix/qmgr[1905]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:14:27 enaypek_pri postfix/smtp[3002]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:14:27 enaypek_pri postfix/smtp[3002]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=none, delay=0.15, delays=0/0/0.15/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:15:07 enaypek_pri postfix/qmgr[1905]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 00:15:07 enaypek_pri postfix/qmgr[1905]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:15:07 enaypek_pri postfix/smtp[3018]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=none, delay=596, delays=596/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:15:07 enaypek_pri postfix/smtp[3002]: connect to ns.com[75.126.104.245]:25: Connection refused
+Nov  8 00:15:07 enaypek_pri postfix/smtp[3002]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=none, delay=904, delays=904/0/0.11/0, dsn=4.4.1, status=deferred (connect to ns.com[75.126.104.245]:25: Connection refused)
+Nov  8 00:20:07 enaypek_pri postfix/qmgr[1905]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 00:20:07 enaypek_pri postfix/qmgr[1905]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:20:07 enaypek_pri postfix/qmgr[1905]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:20:08 enaypek_pri postfix/smtp[3057]: 588C71039BCE: to=<hjameel1@ns.com>, relay=none, delay=963, delays=963/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:20:08 enaypek_pri postfix/smtp[3058]: 2EC431047530: to=<hjameel1@ns.com>, relay=none, delay=409, delays=409/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:20:08 enaypek_pri postfix/smtp[3057]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=none, delay=341, delays=340/0.07/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:25:07 enaypek_pri postfix/qmgr[1905]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:25:07 enaypek_pri postfix/error[3104]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=none, delay=1196, delays=1196/0.03/0/0.01, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:30:07 enaypek_pri postfix/qmgr[1905]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:30:07 enaypek_pri postfix/qmgr[1905]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:30:07 enaypek_pri postfix/smtp[3117]: 2EC431047530: to=<hjameel1@ns.com>, relay=none, delay=1008, delays=1008/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:30:07 enaypek_pri postfix/smtp[3118]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=none, delay=940, delays=940/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:35:07 enaypek_pri postfix/qmgr[1905]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 00:35:07 enaypek_pri postfix/smtp[3127]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=none, delay=2104, delays=2104/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:40:07 enaypek_pri postfix/qmgr[1905]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 00:40:07 enaypek_pri postfix/smtp[3131]: 588C71039BCE: to=<hjameel1@ns.com>, relay=none, delay=2162, delays=2162/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:45:07 enaypek_pri postfix/qmgr[1905]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:45:07 enaypek_pri postfix/smtp[3140]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=none, delay=2396, delays=2396/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:50:07 enaypek_pri postfix/qmgr[1905]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:50:07 enaypek_pri postfix/qmgr[1905]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 00:50:07 enaypek_pri postfix/smtp[3150]: 2EC431047530: to=<hjameel1@ns.com>, relay=none, delay=2209, delays=2209/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 00:50:07 enaypek_pri postfix/smtp[3151]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=none, delay=2140, delays=2140/0.05/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:04:31 enaypek_pri postfix/postfix-script[1475]: starting the Postfix mail system
+Nov  8 01:04:31 enaypek_pri postfix/master[1486]: daemon started -- version 3.3.1, configuration /etc/postfix
+Nov  8 01:14:31 enaypek_pri postfix/qmgr[1490]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 01:14:31 enaypek_pri postfix/smtp[1771]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=none, delay=4468, delays=4468/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:19:31 enaypek_pri postfix/qmgr[1490]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 01:19:31 enaypek_pri postfix/smtp[1779]: 588C71039BCE: to=<hjameel1@ns.com>, relay=none, delay=4527, delays=4527/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:25:41 enaypek_pri postfix/pickup[1489]: 37C21102B3ED: uid=1002 from=<enaypek>
+Nov  8 01:25:41 enaypek_pri postfix/cleanup[1791]: 37C21102B3ED: message-id=<20201108062541.37C21102B3ED@mail.eh.com>
+Nov  8 01:25:41 enaypek_pri postfix/qmgr[1490]: 37C21102B3ED: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:25:41 enaypek_pri postfix/smtp[1793]: 37C21102B3ED: to=<hjameel1@ns.com>, relay=none, delay=0.06, delays=0.03/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:29:31 enaypek_pri postfix/qmgr[1490]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:29:31 enaypek_pri postfix/qmgr[1490]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:29:31 enaypek_pri postfix/qmgr[1490]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:29:31 enaypek_pri postfix/smtp[1810]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=none, delay=5060, delays=5060/0.04/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:29:31 enaypek_pri postfix/smtp[1811]: 2EC431047530: to=<hjameel1@ns.com>, relay=none, delay=4572, delays=4572/0.05/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:29:31 enaypek_pri postfix/smtp[1810]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=none, delay=4504, delays=4504/0.06/0.01/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:34:31 enaypek_pri postfix/qmgr[1490]: 37C21102B3ED: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:34:41 enaypek_pri postfix/smtp[1817]: 37C21102B3ED: to=<hjameel1@ns.com>, relay=none, delay=540, delays=530/0.04/10/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:44:31 enaypek_pri postfix/qmgr[1490]: 37C21102B3ED: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:44:31 enaypek_pri postfix/smtp[1832]: 37C21102B3ED: to=<hjameel1@ns.com>, relay=none, delay=1131, delays=1131/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=ns.com type=MX: Host not found, try again)
+Nov  8 01:46:44 enaypek_pri postfix/pickup[1489]: AB3E6102B3EC: uid=1002 from=<enaypek>
+Nov  8 01:46:44 enaypek_pri postfix/cleanup[1839]: AB3E6102B3EC: message-id=<20201108064644.AB3E6102B3EC@mail.eh.com>
+Nov  8 01:46:44 enaypek_pri postfix/qmgr[1490]: AB3E6102B3EC: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 01:46:44 enaypek_pri postfix/smtp[1841]: AB3E6102B3EC: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=0.2, delays=0.03/0.02/0.12/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 442F2209DB83)
+Nov  8 01:46:44 enaypek_pri postfix/qmgr[1490]: AB3E6102B3EC: removed
+Nov  8 01:49:23 enaypek_pri postfix/pickup[1489]: EA1E3102B3EC: uid=0 from=<root>
+Nov  8 01:49:23 enaypek_pri postfix/cleanup[1878]: EA1E3102B3EC: message-id=<20201108064923.EA1E3102B3EC@mail.eh.com>
+Nov  8 01:49:23 enaypek_pri postfix/qmgr[1490]: EA1E3102B3EC: from=<root@eh.com>, size=250, nrcpt=1 (queue active)
+Nov  8 01:49:24 enaypek_pri postfix/smtp[1880]: EA1E3102B3EC: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=0.14, delays=0.03/0.02/0.09/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 73D2B209DB83)
+Nov  8 01:49:24 enaypek_pri postfix/qmgr[1490]: EA1E3102B3EC: removed
+Nov  8 01:54:55 enaypek_pri postfix/smtpd[1893]: connect from unknown[172.16.14.3]
+Nov  8 01:54:55 enaypek_pri postfix/smtpd[1893]: 3A2C3102B3EE: client=unknown[172.16.14.3]
+Nov  8 01:54:55 enaypek_pri postfix/cleanup[1897]: 3A2C3102B3EE: message-id=<20201108065454.6E62E209DB83@mail.ns.com>
+Nov  8 01:54:55 enaypek_pri postfix/qmgr[1490]: 3A2C3102B3EE: from=<hjameel1@ns.com>, size=418, nrcpt=1 (queue active)
+Nov  8 01:54:55 enaypek_pri postfix/smtpd[1893]: disconnect from unknown[172.16.14.3] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Nov  8 01:54:55 enaypek_pri postfix/local[1898]: 3A2C3102B3EE: to=<enaypek@eh.com>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to mailbox)
+Nov  8 01:54:55 enaypek_pri postfix/qmgr[1490]: 3A2C3102B3EE: removed
+Nov  8 01:55:44 enaypek_pri postfix/pickup[1489]: 4E919102B3EC: uid=0 from=<root>
+Nov  8 01:55:44 enaypek_pri postfix/cleanup[1897]: 4E919102B3EC: message-id=<20201108065544.4E919102B3EC@mail.eh.com>
+Nov  8 01:55:44 enaypek_pri postfix/qmgr[1490]: 4E919102B3EC: from=<root@eh.com>, size=250, nrcpt=1 (queue active)
+Nov  8 01:55:44 enaypek_pri postfix/smtp[1905]: 4E919102B3EC: to=<student@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=0.13, delays=0.01/0.02/0.1/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as CD3BA209DB83)
+Nov  8 01:55:44 enaypek_pri postfix/qmgr[1490]: 4E919102B3EC: removed
+Nov  8 01:56:31 enaypek_pri postfix/pickup[1489]: B7996102B3EE: uid=0 from=<root>
+Nov  8 01:56:31 enaypek_pri postfix/cleanup[1897]: B7996102B3EE: message-id=<20201108065631.B7996102B3EE@mail.eh.com>
+Nov  8 01:56:31 enaypek_pri postfix/qmgr[1490]: B7996102B3EE: from=<root@eh.com>, size=260, nrcpt=1 (queue active)
+Nov  8 01:56:31 enaypek_pri postfix/smtp[1905]: B7996102B3EE: to=<student@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=0.07, delays=0.01/0/0.06/0.01, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 3222C209DB83)
+Nov  8 01:56:31 enaypek_pri postfix/qmgr[1490]: B7996102B3EE: removed
+Nov  8 01:58:15 enaypek_pri postfix/anvil[1895]: statistics: max connection rate 1/60s for (smtp:172.16.14.3) at Nov  8 01:54:55
+Nov  8 01:58:15 enaypek_pri postfix/anvil[1895]: statistics: max connection count 1 for (smtp:172.16.14.3) at Nov  8 01:54:55
+Nov  8 01:58:15 enaypek_pri postfix/anvil[1895]: statistics: max cache size 1 at Nov  8 01:54:55
+Nov  8 02:04:31 enaypek_pri postfix/qmgr[1490]: 37C21102B3ED: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 02:04:31 enaypek_pri postfix/smtp[1927]: 37C21102B3ED: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=2330, delays=2330/0.04/0.1/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as BDA0F209DB83)
+Nov  8 02:04:31 enaypek_pri postfix/qmgr[1490]: 37C21102B3ED: removed
+Nov  8 02:24:31 enaypek_pri postfix/qmgr[1490]: 6D8E8102B3D8: from=<enaypek@eh.com>, size=445, nrcpt=1 (queue active)
+Nov  8 02:24:31 enaypek_pri postfix/smtp[1935]: 6D8E8102B3D8: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=8668, delays=8668/0.04/0.1/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as A195C209DB83)
+Nov  8 02:24:31 enaypek_pri postfix/qmgr[1490]: 6D8E8102B3D8: removed
+Nov  8 02:29:31 enaypek_pri postfix/qmgr[1490]: 588C71039BCE: from=<root@eh.com>, size=446, nrcpt=1 (queue active)
+Nov  8 02:29:31 enaypek_pri postfix/smtp[1938]: 588C71039BCE: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=8726, delays=8726/0.04/0.1/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as DFDA5209DB83)
+Nov  8 02:29:31 enaypek_pri postfix/qmgr[1490]: 588C71039BCE: removed
+Nov  8 02:39:31 enaypek_pri postfix/qmgr[1490]: 59C6E102B3E5: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 02:39:31 enaypek_pri postfix/qmgr[1490]: 2EC431047530: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 02:39:31 enaypek_pri postfix/qmgr[1490]: 8A1CB102B3E1: from=<enaypek@eh.com>, size=249, nrcpt=1 (queue active)
+Nov  8 02:39:32 enaypek_pri postfix/smtp[1941]: 59C6E102B3E5: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=9261, delays=9261/0.04/0.15/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7234E209DB83)
+Nov  8 02:39:32 enaypek_pri postfix/qmgr[1490]: 59C6E102B3E5: removed
+Nov  8 02:39:32 enaypek_pri postfix/smtp[1942]: 2EC431047530: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=8773, delays=8773/0.05/0.14/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 7504F209DB8C)
+Nov  8 02:39:32 enaypek_pri postfix/qmgr[1490]: 2EC431047530: removed
+Nov  8 02:39:32 enaypek_pri postfix/smtp[1943]: 8A1CB102B3E1: to=<hjameel1@ns.com>, relay=mail.ns.com[192.168.14.25]:25, delay=8705, delays=8704/0.07/0.14/0.02, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 75F99209DB90)
+Nov  8 02:39:32 enaypek_pri postfix/qmgr[1490]: 8A1CB102B3E1: removed
