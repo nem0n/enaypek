@@ -1,0 +1,10 @@
+Server:		192.168.3.2
+Address:	192.168.3.2#53
+
+Non-authoritative answer:
+eh.com	mail exchanger = 10 mail.eh.com.
+
+Authoritative answers can be found from:
+eh.com	nameserver = enaypek-pri.eh.com.
+enaypek-pri.eh.com	internet address = 192.168.3.53
+

@@ -1,0 +1,5 @@
+Server:		192.168.3.53
+Address:	192.168.3.53#53
+
+eh.com	mail exchanger = 10 mail.eh.com.
+
